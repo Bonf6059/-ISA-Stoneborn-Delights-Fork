@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+      <RecipeDef ParentName="MakeStoneBlocksBase">
+        <defName>Make_GlimmerCrystals</defName>
+        <label>cut up glimmerquartz chunks</label>
+        <description>Cuts glimmerquartz chunks into bite-size pieces.</description>
+        <ingredients>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>ChunkGlimmer</li>
+              </thingDefs>
+            </filter>
+            <count>1</count>
+          </li>
+        </ingredients>
+        <fixedIngredientFilter>
+          <thingDefs>
+            <li>ChunkGlimmer</li>
+          </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+          <SD_Glimmerquartz>20</SD_Glimmerquartz>
+        </products>
+      </RecipeDef>
+
+</Defs>
