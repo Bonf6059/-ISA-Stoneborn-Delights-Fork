@@ -1,69 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <RecipeDef>
-        <defName>SD_Make_RawShatterbrew</defName>
-        <label>make raw shatterbrew</label>
-        <description>Mix stoutcap, vegetables, and meat into a very large pot of alcoholic stew.</description>
-        <jobString>Making raw shatterbrew.</jobString>
-        <workAmount>2500</workAmount>
-        <workSpeedStat>CookSpeed</workSpeedStat>
-        <effectWorking>Cook</effectWorking>
-        <soundWorking>Recipe_CookMeal</soundWorking>
-        <allowMixingIngredients>true</allowMixingIngredients>
-        <recipeUsers>
-            <li>Brewery</li>
-        </recipeUsers>
-        <ingredients>
-          <li>
-            <filter>
-              <categories>
-                <li>MeatRaw</li>
-              </categories>
-            </filter>
-            <count>10</count>
-          </li>
-          <li>
-            <filter>
-              <categories>
-                <li>PlantFoodRaw</li>
-              </categories>
-            </filter>
-            <count>10</count>
-          </li>
-          <li>
-            <filter>
-              <thingDefs>
-                <li>SD_RawStoutcap</li>
-              </thingDefs>
-            </filter>
-            <count>10</count>
-          </li>
-          <li>
-            <filter>
-                <categories>
-                  <li>StoneBlocks</li>
-                </categories>
-            </filter>
-            <count>5</count>
-          </li>
-        </ingredients>
-        <fixedIngredientFilter>
-          <categories>
-            <li>FoodRaw</li>
-            <li>StoneBlocks</li>
-          </categories>
-          <thingDefs>
-            <li>SD_RawStoutcap</li>
-          </thingDefs>
-        </fixedIngredientFilter>
-        <workSkill>Cooking</workSkill>
-        <products>
-          <SD_RawShatterbrew>1</SD_RawShatterbrew>
-        </products>
-        <displayPriority>1430</displayPriority>
-      </RecipeDef>
-
     <ThingDef ParentName="ResourceBase">
         <defName>SD_RawShatterbrew</defName>
         <label>raw shatterbrew</label>
