@@ -216,7 +216,6 @@
         <label>shatterbrew hunger</label>
         <description>An addiction to consuming shatterbrew, either from the miniscule alcohol content or a very misplaced sense of pride. The desire to consume shatterbrew is so powerful that the brain has developed a dependance on consuming copious amounts of stew. However, this addiction can be curbed after a period of not consuming shatterbrew. Make sure to keep a shatterbrew addict out of the larder in the meantime.</description>
         <hediffClass>Hediff_Addiction</hediffClass>
-        <causesNeed>SD_Chemical_Shatterbrew</causesNeed>
         <comps>
           <li Class="HediffCompProperties_SeverityPerDay">
             <severityPerDay>-0.065</severityPerDay>
