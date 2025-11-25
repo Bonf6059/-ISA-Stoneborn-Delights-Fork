@@ -12,6 +12,7 @@
           <ComfyTemperatureMin>0</ComfyTemperatureMin>
           <MarketValue>250</MarketValue>
           <LeatherAmount>0</LeatherAmount>
+          <wildness>0.6</wildness>
         </statBases>
         <uiIconScale>2</uiIconScale>
         <tools>
@@ -43,7 +44,6 @@
           <baseHealthScale>0.4</baseHealthScale>
           <useMeatFrom>Megaspider</useMeatFrom>
           <lifeExpectancy>10</lifeExpectancy>
-          <wildness>0.6</wildness>
           <trainability>None</trainability>
           <manhunterOnDamageChance>0</manhunterOnDamageChance>
           <lifeStageAges>
