@@ -12,7 +12,7 @@
           <ComfyTemperatureMin>0</ComfyTemperatureMin>
           <MarketValue>250</MarketValue>
           <LeatherAmount>0</LeatherAmount>
-          <wildness>0.6</wildness>
+          <Wildness>0.6</Wildness>
         </statBases>
         <uiIconScale>2</uiIconScale>
         <tools>
