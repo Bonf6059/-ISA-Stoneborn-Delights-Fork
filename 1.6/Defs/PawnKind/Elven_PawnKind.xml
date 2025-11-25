@@ -51,8 +51,8 @@
 
     <apparelMoney>200~450</apparelMoney>
     <apparelRequired>
-      <li>DevDesigner_WoodElves_Boots</li>
-      <li>DevDesigner_WoodElves_Cloak</li>
+      
+      <li>Cape</li>
     </apparelRequired>
 
     <apparelTags>
@@ -146,9 +146,9 @@
 
     <apparelMoney>1300~2500</apparelMoney>
     <apparelRequired>
-      <li>DevDesigner_WoodElves_Gloves</li>
-      <li>DevDesigner_WoodElves_Boots</li>
-      <li>DevDesigner_WoodElves_Cloak</li>
+      
+      
+      <li>Cape</li>
       <li>DevDesigner_HighElves_Quiver</li>
     </apparelRequired>
     <apparelTags>
@@ -275,11 +275,6 @@
     <itemQuality>Good</itemQuality>
 
     <apparelMoney>1300~2500</apparelMoney>
-    <apparelRequired>
-      <li>DevDesigner_WoodElves_Gloves</li>
-      <li>DevDesigner_WoodElves_Boots</li>
-      <li>DevDesigner_WoodElves_Cloak</li>
-    </apparelRequired>
     <apparelTags>
       <li>DevDesigner_WoodElves_Light</li>
     </apparelTags>
@@ -418,12 +413,12 @@
 
     <apparelMoney>1300~2500</apparelMoney>
     <apparelRequired>
-      <li>DevDesigner_WoodElves_Gloves</li>
-      <li>DevDesigner_WoodElves_Boots</li>
+      
+      
       <li>DevDesigner_WoodElves_StagKnightArmor</li>
       <li>DevDesigner_WoodElves_Scalemail</li>
       <li>DevDesigner_WoodElves_Tunic</li>
-      <li>DevDesigner_WoodElves_Cloak</li>
+      <li>Cape</li>
     </apparelRequired>
     <apparelTags>
       <li>DevDesigner_WoodElves_Heavy</li>
@@ -634,14 +629,14 @@
 
     <apparelMoney>1500~5500</apparelMoney>
     <apparelRequired>
-      <li>DevDesigner_WoodElves_Gloves</li>
-      <li>DevDesigner_WoodElves_Boots</li>
-      <li>DevDesigner_WoodElves_StagKnightHelmet</li>
+      
+      
+      
       <li>DevDesigner_WoodElves_StagKnightArmor</li>
-      <li>DevDesigner_WoodElves_StagKnightPauldrons</li>
+
       <li>DevDesigner_WoodElves_Scalemail</li>
       <li>DevDesigner_WoodElves_Tunic</li>
-      <li>DevDesigner_WoodElves_Cloak</li>
+      <li>Cape</li>
     </apparelRequired>
     <apparelTags>
       <li>DevDesigner_WoodElves_Heavy</li>
@@ -814,8 +809,8 @@
 
     <apparelMoney>1300~2500</apparelMoney>
     <apparelRequired>
-      <li>DevDesigner_WoodElves_Gloves</li>
-      <li>DevDesigner_WoodElves_Boots</li>
+      
+      
       <li>DevDesigner_WoodElves_Bikini</li>
       <li>DevDesigner_WoodElves_Lioncloth</li>
       <li>DevDesigner_WoodElves_Corset</li>
@@ -946,8 +941,8 @@
 
     <apparelMoney>1300~2500</apparelMoney>
     <apparelRequired>
-      <li>DevDesigner_WoodElves_Gloves</li>
-      <li>DevDesigner_WoodElves_Boots</li>
+      
+      
       <li>DevDesigner_WoodElves_Bikini</li>
       <li>DevDesigner_WoodElves_ShamanRobe</li>
       <li>DevDesigner_WoodElves_ShamanCloak</li>
