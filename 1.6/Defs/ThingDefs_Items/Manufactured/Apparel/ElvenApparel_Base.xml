@@ -139,4 +139,18 @@
     </recipeMaker>
   </ThingDef>
 
+  <!-- DevDesigner_WoodElves_MetalHeadgear -->
+  <ThingDef Name="DevDesigner_WoodElves_MetalHeadgear" Abstract="True" ParentName="DevDesigner_Elves_MetalHeadgear">
+    <recipeMaker>
+      <researchPrerequisite>DevDesigner_ElvenEquipment_WoodElves</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- DevDesigner_WoodElves_ClothHeadgear -->
+  <ThingDef Name="DevDesigner_WoodElves_ClothHeadgear" Abstract="true" ParentName="DevDesigner_Elves_ClothHeadgear">
+    <recipeMaker>
+      <researchPrerequisite>DevDesigner_ElvenEquipment_WoodElves</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+
 </Defs>
