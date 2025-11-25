@@ -153,4 +153,29 @@
     </recipeMaker>
   </ThingDef>
 
+  <!-- DevDesigner_WoodElves_ShamanCrownBase -->
+  <ThingDef Name="DevDesigner_WoodElves_ShamanCrownBase" Abstract="True" ParentName="DevDesigner_WoodElves_MetalHeadgear">
+    <label>shaman crown</label>
+    <description>...</description>
+
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>0.3</Mass>
+      <EquipDelay>0.8</EquipDelay>
+      <StuffEffectMultiplierArmor>0.35</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+
+    <equippedStatOffsets>
+      <SocialImpact>0.25</SocialImpact>
+      <PsychicSensitivity>0.05</PsychicSensitivity>
+      <PsychicEntropyRecoveryRate>0.033</PsychicEntropyRecoveryRate>
+      <MeditationFocusGain>0.1</MeditationFocusGain>
+    </equippedStatOffsets>
+
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+
+  </ThingDef>
 </Defs>
