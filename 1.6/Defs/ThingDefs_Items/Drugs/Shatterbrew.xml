@@ -25,8 +25,8 @@
         </statBases>
         <tickerType>Rare</tickerType>
         <techLevel>Industrial</techLevel>
-        <comps>
-		   <li Class="VanillaCookingExpanded.CompProperties_MaturingAlcohol">
+		<comps>
+			<li Class="VEF.Cooking.CompProperties_MaturingAlcohol">
 				<daysToRotStart>18</daysToRotStart>
 				<rotDestroys>true</rotDestroys>
 				<maturingString>SD_ShatterFermenting</maturingString>
@@ -34,8 +34,8 @@
 				<maturingSlowly>SD_ShatterCurrentlyRefrigerated</maturingSlowly>
 				<maturingStopped>SD_ShatterCurrentlyFrozen</maturingStopped>
 				<thingToTransformTo>SD_FermentedShatterbrew</thingToTransformTo>
-		  </li>
-        </comps>
+			</li>
+		</comps>
       </ThingDef>
 
     <ThingDef ParentName="DrugBase">
