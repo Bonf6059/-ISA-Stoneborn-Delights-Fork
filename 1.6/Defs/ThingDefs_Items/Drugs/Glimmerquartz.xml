@@ -1,52 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <ThingDef ParentName="RockBase">
-        <defName>ISA_GlimmerquartzOre</defName>
-        <label>glimmerquartz</label>
-        <description>A bright, pinkish crystal. The sun filters through it, basking the ground around it in a beautiful pink.</description>
-        <graphicData>
-          <texPath>Things/Natural/GlimmerMisc/GlimmerquartzWalls/AtlasA</texPath>
-          <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <filthLeaving>Filth_Glimmerquartz</filthLeaving>
-        <statBases>
-          <MaxHitPoints>250</MaxHitPoints>
-        </statBases>
-        <building>
-         <isResourceRock>true</isResourceRock>
-          <mineableThing>ChunkGlimmer</mineableThing>
-          <mineableDropChance>0.25</mineableDropChance>
-          <mineableScatterCommonality>0.40</mineableScatterCommonality> <!-- SUGAAAAAAAAAHHHHHH -->
-          <mineableScatterLumpSizeRange>7~11</mineableScatterLumpSizeRange>
-        </building>
-      </ThingDef>
-
-
-      <ThingDef ParentName="ChunkBase">
-        <defName>ChunkGlimmer</defName>
-        <label>glimmerquartz chunk</label>
-        <description>A chunk of glimmer. Can be cut into valuable crystals.</description>
-        <graphicData>
-          <texPath>Things/Natural/GlimmerMisc/GlimmerquartzChunks</texPath>
-          <graphicClass>Graphic_Random</graphicClass>
-          <flipExtraRotation>80</flipExtraRotation>
-        </graphicData>
-        <thingCategories>
-          <li>StoneChunks</li>
-        </thingCategories>
-        <statBases>
-          <Mass>14</Mass>
-          <Beauty>0</Beauty>
-          <BeautyOutdoors>0</BeautyOutdoors>
-          <Cleanliness>-1</Cleanliness>
-        </statBases>
-        <soundDrop>ChunkRock_Drop</soundDrop>
-        <butcherProducts>
-          <ISA_Glimmerquartz>20</ISA_Glimmerquartz>
-        </butcherProducts>
-      </ThingDef>
-
     <ThingDef ParentName="DrugBase">
         <defName>ISA_Glimmerquartz</defName>
         <label>glimmerquartz</label>
