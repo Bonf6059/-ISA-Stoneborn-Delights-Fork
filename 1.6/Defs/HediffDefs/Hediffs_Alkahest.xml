@@ -2,7 +2,7 @@
 <Defs>
     
       <HediffDef>
-        <defName>SD_AlkahestHigh</defName>
+        <defName>ISA_AlkahestHigh</defName>
         <label>alkahest</label>
         <labelNoun>an alkahest high</labelNoun>
         <description>Active alkahest mechanites in the body. They improve the brain's functions. However, if they are not regularly replenished with more injections of alkahest, they lose cohesion and confuse and lower mental capabilities.</description>
@@ -31,15 +31,15 @@
       <!-- Alkahest addiction -->
       
       <ChemicalDef>
-        <defName>SD_Alkahest</defName>
+        <defName>ISA_Alkahest</defName>
         <label>alkahest</label>
-        <addictionHediff>SD_AlkahestAddiction</addictionHediff>
+        <addictionHediff>ISA_AlkahestAddiction</addictionHediff>
         <canBinge>true</canBinge>
         <generateAddictionGenes>false</generateAddictionGenes>
       </ChemicalDef>
       
       <NeedDef ParentName="DrugAddictionNeedBase">
-        <defName>SD_Chemical_Alkahest</defName>
+        <defName>ISA_Chemical_Alkahest</defName>
         <needClass>Need_Chemical</needClass>
         <label>alkahest</label>
         <description>This person's body is enhanced by alkahest mechanites.\n\nWithout regular injections of alkahest, the mechanites will lose cohesion. If this happens, the user becomes dizzy, lost and confused.\n\nThis addiction never goes away.</description>
@@ -49,7 +49,7 @@
       </NeedDef>
       
       <HediffDef ParentName="AddictionBase">
-        <defName>SD_AlkahestAddiction</defName>
+        <defName>ISA_AlkahestAddiction</defName>
         <label>alkahest thirst</label>
         <description>Alkahest mechanites in the body. Alkahest mechanites decohere over time; only regular doses of fresh alkahest can prevent this process.
     \nWithout alkahest , the mechanite decoherence will reach a critical state, causing the victim to lose themselves.</description>
@@ -89,9 +89,9 @@
       </HediffDef>
 
       <ThoughtDef>
-        <defName>SD_AlkahestWithdrawalThought</defName>
+        <defName>ISA_AlkahestWithdrawalThought</defName>
         <workerClass>ThoughtWorker_Hediff</workerClass>
-        <hediff>SD_AlkahestAddiction</hediff>
+        <hediff>ISA_AlkahestAddiction</hediff>
         <validWhileDespawned>true</validWhileDespawned>
         <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
         <stages>
@@ -107,7 +107,7 @@
       </ThoughtDef>
 
       <HediffDef>
-        <defName>SD_GreenVeins</defName>
+        <defName>ISA_GreenVeins</defName>
         <defaultLabelColor>(0,1,0.2)</defaultLabelColor>
         <hediffClass>HediffWithComps</hediffClass>
         <label>green veins</label>
