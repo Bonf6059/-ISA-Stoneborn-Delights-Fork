@@ -2,14 +2,14 @@
 <Defs>
 
   <ThingDef MayRequire="det.stonebornfaction" ParentName="DrugBase">
-    <defName>SD_Bullgrog</defName>
+    <defName>ISA_Bullgrog</defName>
     <label>bullgrog</label>
     <description>An odd alcoholic beverage produced inside of the bodies of browbulls which is then secreted from their skin, it seems to either be a method of purging the body of dangerous chemicals or a unique way to protect themselves against predators, either way, it seems palatable atleast to the stoneborn, and when drunk it makes you feel quite unstoppable, and hungry.</description>
     <descriptionHyperlinks>
-      <HediffDef>SD_BullgrogHigh</HediffDef>
-      <HediffDef>SD_DwarvenBrewTolerance</HediffDef>
-      <HediffDef>SD_DwarvenBrewAddiction</HediffDef>
-      <HediffDef>SD_LightHangover</HediffDef>
+      <HediffDef>ISA_BullgrogHigh</HediffDef>
+      <HediffDef>ISA_DwarvenBrewTolerance</HediffDef>
+      <HediffDef>ISA_DwarvenBrewAddiction</HediffDef>
+      <HediffDef>ISA_LightHangover</HediffDef>
       <HediffDef>Cirrhosis</HediffDef>
       <HediffDef>ChemicalDamageModerate</HediffDef>
     </descriptionHyperlinks>
@@ -43,12 +43,12 @@
       <tableDesired>false</tableDesired>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>SD_BullgrogHigh</hediffDef>
+          <hediffDef>ISA_BullgrogHigh</hediffDef>
           <severity>0.16</severity>
-          <toleranceChemical>SD_DwarvenDrink</toleranceChemical>
+          <toleranceChemical>ISA_DwarvenDrink</toleranceChemical>
         </li>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>SD_DwarvenBrewTolerance</hediffDef>
+          <hediffDef>ISA_DwarvenBrewTolerance</hediffDef>
           <severity>0.025</severity>
           <divideByBodySize>true</divideByBodySize>
         </li>
@@ -58,7 +58,7 @@
     <techLevel>Neolithic</techLevel>
     <comps>
       <li Class="CompProperties_Drug">
-        <chemical>SD_DwarvenDrink</chemical>
+        <chemical>ISA_DwarvenDrink</chemical>
         <addictiveness>0.015</addictiveness>
         <minToleranceToAddict>0.23</minToleranceToAddict>
         <existingAddictionSeverityOffset>0.22</existingAddictionSeverityOffset>
