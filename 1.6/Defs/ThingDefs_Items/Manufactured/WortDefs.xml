@@ -2,7 +2,7 @@
 <Defs>
 
   <ThingDef ParentName="ResourceBase">
-    <defName>SD_ElixirMush</defName>
+    <defName>ISA_ElixirMush</defName>
     <label>elixir mush</label>
     <description>Un-fermented elixir, with a very pungent odor. This substance needs to ferment in a fermenting barrel before it becomes drinkable beer.</description>
     <graphicData>
@@ -23,8 +23,8 @@
       <MaxHitPoints>60</MaxHitPoints>
     </statBases>
     <costList>
-        <SD_RawBullHorns>20</SD_RawBullHorns>
-        <SD_RawBladeroot>10</SD_RawBladeroot>
+        <ISA_RawBullHorns>20</ISA_RawBullHorns>
+        <ISA_RawBladeroot>10</ISA_RawBladeroot>
       </costList>
     <recipeMaker>
         <workSpeedStat>DrugCookingSpeed</workSpeedStat>
@@ -47,7 +47,7 @@
   </ThingDef>
 
   <ThingDef ParentName="ResourceBase">
-    <defName>SD_LiquorSmush</defName>
+    <defName>ISA_LiquorSmush</defName>
     <label>liquor smush</label>
     <description>Un-fermented liquor, with a strong and spicy odor. This substance needs to ferment in a fermenting barrel before it becomes drinkable beer.</description>
     <graphicData>
@@ -68,8 +68,8 @@
       <MaxHitPoints>60</MaxHitPoints>
     </statBases>
     <costList>
-        <SD_RawBullHorns>20</SD_RawBullHorns>
-        <SD_RawBladeroot>10</SD_RawBladeroot>
+        <ISA_RawBullHorns>20</ISA_RawBullHorns>
+        <ISA_RawBladeroot>10</ISA_RawBladeroot>
       </costList>
     <recipeMaker>
         <workSpeedStat>DrugCookingSpeed</workSpeedStat>
