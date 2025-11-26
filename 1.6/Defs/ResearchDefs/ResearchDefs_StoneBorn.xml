@@ -7,7 +7,7 @@
   </ResearchTabDef>
 
   <ResearchProjectDef>
-    <defName>SD_DwarvenDrugPlants</defName>
+    <defName>ISA_DwarvenDrugPlants</defName>
     <label>underground herbs</label>
     <tab>StonebornTab</tab>
     <description>Plant the 3 main ingredients of all good stoneborn alcohols.</description>
@@ -18,7 +18,7 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>SD_DwarvenBrewing</defName>
+    <defName>ISA_DwarvenBrewing</defName>
     <label>dwarven fermentation</label>
     <tab>StonebornTab</tab>
     <description>Build the dwarven cask and discover all the secrets it contains.</description>
@@ -27,12 +27,12 @@
     <researchViewX>1.00</researchViewX>
     <researchViewY>2.40</researchViewY>
     <prerequisites>
-      <li>SD_DwarvenDrugPlants</li>
+      <li>ISA_DwarvenDrugPlants</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>SD_ProcessedDrugs</defName>
+    <defName>ISA_ProcessedDrugs</defName>
     <label>complex concoctions</label>
     <tab>StonebornTab</tab>
     <description>Create processed mixes of drugs and unique brews, utilizing various chemicals and minerals.</description>
