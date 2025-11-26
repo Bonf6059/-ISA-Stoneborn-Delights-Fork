@@ -2,7 +2,7 @@
 <Defs>
 
   <HediffDef>
-    <defName>SD_BladerootHigh</defName>
+    <defName>ISA_BladerootHigh</defName>
     <label>high on bladeroot</label>
     <labelNoun>a bladeroot high</labelNoun>
     <description>Bladeroot's active chemical in the bloodstream. Generates violent thoughts, and a strange itch for smashing things.</description>
@@ -38,9 +38,9 @@
   </HediffDef>
   
   <ThoughtDef>
-    <defName>SD_BladerootHighThought</defName>
+    <defName>ISA_BladerootHighThought</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
-    <hediff>SD_BladerootHigh</hediff>
+    <hediff>ISA_BladerootHigh</hediff>
     <validWhileDespawned>true</validWhileDespawned>
     <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
     <stages>
@@ -55,10 +55,10 @@
   <!-- Bladeroot addiction -->
 
   <ChemicalDef>
-    <defName>SD_Bladeroot</defName>
+    <defName>ISA_Bladeroot</defName>
     <label>Bladeroot</label>
-    <addictionHediff>SD_BladerootAddiction</addictionHediff>
-    <toleranceHediff>SD_BladerootTolerance</toleranceHediff>
+    <addictionHediff>ISA_BladerootAddiction</addictionHediff>
+    <toleranceHediff>ISA_BladerootTolerance</toleranceHediff>
     <onGeneratedAddictedToleranceChance>0.8</onGeneratedAddictedToleranceChance>
     <geneToleranceBuildupFactorResist>0.5</geneToleranceBuildupFactorResist>
     <geneToleranceBuildupFactorImmune>0</geneToleranceBuildupFactorImmune>
@@ -67,7 +67,7 @@
   </ChemicalDef>
 
   <NeedDef ParentName="DrugAddictionNeedBase">
-    <defName>SD_Chemical_Bladeroot</defName>
+    <defName>ISA_Chemical_Bladeroot</defName>
     <needClass>Need_Chemical</needClass>
     <label>bladeroot</label>
     <description>Because of a bladeroot dependence, this person needs to regularly consume the drug to avoid withdrawal symptoms.</description>
@@ -75,7 +75,7 @@
   </NeedDef>
   
   <HediffDef ParentName="DrugToleranceBase">
-    <defName>SD_BladerootTolerance</defName>
+    <defName>ISA_BladerootTolerance</defName>
     <label>bladeroot tolerance</label>
     <description>A built-up tolerance to bladeroot. The more severe this tolerance is, the more bladeroot it takes to get the same effect.</description>
     <comps>
@@ -83,7 +83,7 @@
         <severityPerDay>-0.015</severityPerDay>
       </li>
       <li Class="HediffCompProperties_DrugEffectFactor">
-        <chemical>SD_Bladeroot</chemical>
+        <chemical>ISA_Bladeroot</chemical>
       </li>
     </comps>
     <hediffGivers>
@@ -119,7 +119,7 @@
   </HediffDef>
 
   <HediffDef ParentName="AddictionBase">
-    <defName>SD_BladerootAddiction</defName>
+    <defName>ISA_BladerootAddiction</defName>
     <label>bladeroot dependence</label>
     <description>A chemical addiction to bladeroot. Long-term use of bladeroot has caused neurological adaptations at the cellular level, so the brain can no longer function properly without the drug.
 \nWithout regular doses of bladeroot, withdrawal symptoms will begin. However, extended abstinence will force the brain to adapt back to its normal state, resolving the addiction.</description>
@@ -160,9 +160,9 @@
   </HediffDef>
 
   <ThoughtDef>
-    <defName>SD_BladerootWithdrawalThought</defName>
+    <defName>ISA_BladerootWithdrawalThought</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
-    <hediff>SD_BladerootAddiction</hediff>
+    <hediff>ISA_BladerootAddiction</hediff>
     <validWhileDespawned>true</validWhileDespawned>
     <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
     <stages>
