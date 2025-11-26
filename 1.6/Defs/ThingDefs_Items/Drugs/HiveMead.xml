@@ -15,7 +15,7 @@
         </descriptionHyperlinks>
         <possessionCount>6</possessionCount>
         <graphicData>
-          <texPath>Things/HiveMead</texPath>
+          <texPath>Things/Items/Drugs/HiveMead</texPath>
           <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <equippedAngleOffset>-150</equippedAngleOffset>
