@@ -2,7 +2,7 @@
 <Defs>
 
     <RecipeDef>
-        <defName>SD_Make_RawShatterbrew</defName>
+        <defName>ISA_Make_RawShatterbrew</defName>
         <label>make raw shatterbrew</label>
         <description>Mix stoutcap, vegetables, and meat into a very large pot of alcoholic stew.</description>
         <jobString>Making raw shatterbrew.</jobString>
@@ -34,7 +34,7 @@
           <li>
             <filter>
               <thingDefs>
-                <li>SD_RawStoutcap</li>
+                <li>ISA_RawStoutcap</li>
               </thingDefs>
             </filter>
             <count>10</count>
@@ -54,12 +54,12 @@
             <li>StoneBlocks</li>
           </categories>
           <thingDefs>
-            <li>SD_RawStoutcap</li>
+            <li>ISA_RawStoutcap</li>
           </thingDefs>
         </fixedIngredientFilter>
         <workSkill>Cooking</workSkill>
         <products>
-          <SD_RawShatterbrew>1</SD_RawShatterbrew>
+          <ISA_RawShatterbrew>1</ISA_RawShatterbrew>
         </products>
         <displayPriority>1430</displayPriority>
       </RecipeDef>
