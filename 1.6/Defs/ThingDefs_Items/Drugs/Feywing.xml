@@ -6,7 +6,7 @@
     <label>feywing</label>
     <description>The torn off wings of a fey. Somehow, some intrepid dwarf thought to roll and smoke these like a joint, and now it has become a sought after drug due to its uniquely potent high.</description>
     <graphicData>
-      <texPath>Things/Feywing</texPath>
+      <texPath>Things/Items/Resources/Feywing</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <drawSize>0.86</drawSize>
     </graphicData>
@@ -51,7 +51,7 @@
     </descriptionHyperlinks>
     <graphicData>
       <drawSize>0.86</drawSize>
-      <texPath>Things/FeywingJoint</texPath>
+      <texPath>Things/Items/Drugs/FeywingJoint</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <rotatable>false</rotatable>
