@@ -2,7 +2,7 @@
 <Defs>
 
     <ThingDef ParentName="BaseInsect">
-        <defName>SD_Fey</defName>
+        <defName>ISA_Fey</defName>
         <label>fey</label>
         <description>A rare and elusive creature that is oddly attracted to the dwarven brewing process. Most tend to think it's some spirit or manifestation of nature itself, or some mystical being from another world. The fey have quite the reputation with the Stoneborn as well, though for an entirely different reason. They tear off the wings of fey to roll them into quite the potent blunt.</description>
         <statBases>
@@ -75,7 +75,7 @@
           </headPosPerRotation>
         </race>
         <butcherProducts>
-          <SD_Feywing>2</SD_Feywing>
+          <ISA_Feywing>2</ISA_Feywing>
         </butcherProducts>
         <tradeTags>
           <li>AnimalInsect</li>
@@ -88,9 +88,9 @@
       </ThingDef>
       
       <PawnKindDef ParentName="AnimalKindBase">
-        <defName>SD_Fey</defName>
+        <defName>ISA_Fey</defName>
         <label>fey</label>
-        <race>SD_Fey</race>
+        <race>ISA_Fey</race>
         <combatPower>0</combatPower>
         <canArriveManhunter>false</canArriveManhunter>
         <ecoSystemWeight>0.1</ecoSystemWeight>
