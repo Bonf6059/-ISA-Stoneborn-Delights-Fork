@@ -2,7 +2,7 @@
 <Defs>
 
     <HediffDef>
-    <defName>SD_BullgrogHigh</defName>
+    <defName>ISA_BullgrogHigh</defName>
     <label>bullgrog high</label>
     <labelNoun>drunkenness</labelNoun>
     <description>Bullgrog is in the blood stream, it tastes kind of gross but gets you drunk fast, and makes you as hungry as a cow.</description>
@@ -20,7 +20,7 @@
         <showHoursToRecover>true</showHoursToRecover>
       </li>
       <li Class="StonebornDelights.HediffCompProperties_Hangover">
-        <hangover>SD_LightHangover</hangover>
+        <hangover>ISA_LightHangover</hangover>
         <minHangoverStage>3</minHangoverStage>
       </li>
     </comps>
@@ -131,7 +131,7 @@
   <ThoughtDef>
     <defName>BullgrogInebriated</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
-    <hediff>SD_BullgrogHigh</hediff>
+    <hediff>ISA_BullgrogHigh</hediff>
     <validWhileDespawned>true</validWhileDespawned>
     <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
     <stages>
