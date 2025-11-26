@@ -12,7 +12,7 @@
             <HediffDef>ISA_BeardWaxHediff</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
-            <texPath>Things/BeardWax</texPath>
+            <texPath>Things/Items/Drugs/BeardWax</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
 			<drawSize>0.75</drawSize>
         </graphicData>
