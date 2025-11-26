@@ -45,33 +45,7 @@
       <maxMeshCount>4</maxMeshCount>
     </plant>
   </ThingDef>
-  
-    <ThingDef ParentName="RoughPlantBase">
-    <defName>SD_RawStoutcap</defName>
-    <label>stoutcap</label>
-    <description>Raw stoutcap. A flavoring and preserving agent that is necessary for making shroom ale.</description>
-    <possessionCount>10</possessionCount>
-    <graphicData>
-      <texPath>Things/Items/Resources/RawPlants/RawStoutcap</texPath>
-    </graphicData>
-    <statBases>
-      <MarketValue>1.1</MarketValue>
-    </statBases>
-    <comps>
-      <li Class="CompProperties_Rottable">
-        <daysToRotStart>35</daysToRotStart>
-        <rotDestroys>true</rotDestroys>
-      </li>
-    </comps>
-    <thingCategories>
-      <li>PlantMatter</li>
-    </thingCategories>
-    <ingestible>
-      <preferability>DesperateOnly</preferability>
-      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
-    </ingestible>
-  </ThingDef>
-  
+	
   <!-- Bladeroot -->
   
   <ThingDef ParentName="CavePlantBase">
@@ -117,32 +91,6 @@
     </plant>
   </ThingDef>
   
-      <ThingDef ParentName="RoughPlantBase">
-    <defName>SD_RawBladeroot</defName>
-    <label>bladeroot</label>
-    <description>Raw bladeroot. A flavoring and preserving agent that is necessary for making shroom ale.</description>
-    <possessionCount>10</possessionCount>
-    <graphicData>
-      <texPath>Things/Items/Resources/RawPlants/RawBladeroot</texPath>
-    </graphicData>
-    <statBases>
-      <MarketValue>1.1</MarketValue>
-    </statBases>
-    <comps>
-      <li Class="CompProperties_Rottable">
-        <daysToRotStart>45</daysToRotStart>
-        <rotDestroys>true</rotDestroys>
-      </li>
-    </comps>
-    <thingCategories>
-      <li>PlantMatter</li>
-    </thingCategories>
-    <ingestible>
-      <preferability>DesperateOnly</preferability>
-      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
-    </ingestible>
-  </ThingDef>
-
     <!-- Bull's Horns -->
 
   <ThingDef ParentName="CavePlantBase">
@@ -188,30 +136,4 @@
     </plant>
   </ThingDef>
   
-      <ThingDef ParentName="RoughPlantBase">
-    <defName>SD_RawBullHorns</defName>
-    <label>bull's horns</label>
-    <description>Raw bull's horns. A spicy and starchy vegetable agent that is used in certain stoneborn brewing recipes.</description>
-    <possessionCount>10</possessionCount>
-    <graphicData>
-      <texPath>Things/Items/Resources/RawPlants/RawBullHorns</texPath>
-    </graphicData>
-    <statBases>
-      <MarketValue>1.1</MarketValue>
-    </statBases>
-    <comps>
-      <li Class="CompProperties_Rottable">
-        <daysToRotStart>40</daysToRotStart>
-        <rotDestroys>true</rotDestroys>
-      </li>
-    </comps>
-    <thingCategories>
-      <li>PlantMatter</li>
-    </thingCategories>
-    <ingestible>
-      <preferability>DesperateOnly</preferability>
-      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
-    </ingestible>
-  </ThingDef>
-
 </Defs>
