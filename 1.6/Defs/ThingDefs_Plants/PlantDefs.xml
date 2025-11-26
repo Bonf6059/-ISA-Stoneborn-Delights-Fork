@@ -4,7 +4,7 @@
   <!-- Stoutcap -->
 
 <ThingDef ParentName="CavePlantBase">
-    <defName>SD_Plant_Stoutcap</defName>
+    <defName>ISA_Plant_Stoutcap</defName>
     <label>stoutcap</label>
     <description>A soft bioengineered mushroom grown for the tasty result of brewing it. It can grow on fungal gravel, but only in darkness - exposing it to any kind of light, including darklights, will kill it.</description>
     <statBases>
@@ -26,7 +26,7 @@
       <fertilityMin>0.3</fertilityMin>
       <fertilitySensitivity>0.15</fertilitySensitivity>
       <harvestTag>Standard</harvestTag>
-      <harvestedThingDef>SD_RawStoutcap</harvestedThingDef>
+      <harvestedThingDef>ISA_RawStoutcap</harvestedThingDef>
 	    <drugForHarvestPurposes>True</drugForHarvestPurposes>
       <harvestYield>11</harvestYield>
       <sowTags>
@@ -35,7 +35,7 @@
       </sowTags>
 	    <sowMinSkill>4</sowMinSkill>
 	    <sowResearchPrerequisites>
-        <li>SD_DwarvenDrugPlants</li>
+        <li>ISA_DwarvenDrugPlants</li>
       </sowResearchPrerequisites>
       <topWindExposure>0</topWindExposure>
       <growDays>8</growDays>
@@ -49,7 +49,7 @@
   <!-- Bladeroot -->
   
   <ThingDef ParentName="CavePlantBase">
-    <defName>SD_Plant_Bladeroot</defName>
+    <defName>ISA_Plant_Bladeroot</defName>
     <label>bladeroot</label>
     <description>A robust root that is mainly grown and harvested for the powerful effects of it's leaves. It can grow on fungal gravel, but only in darkness - exposing it to any kind of light, including darklights, will kill it.</description>
     <statBases>
@@ -71,7 +71,7 @@
       <fertilityMin>0.3</fertilityMin>
       <fertilitySensitivity>0.15</fertilitySensitivity>
       <harvestTag>Standard</harvestTag>
-      <harvestedThingDef>SD_RawBladeroot</harvestedThingDef>
+      <harvestedThingDef>ISA_RawBladeroot</harvestedThingDef>
 	  <drugForHarvestPurposes>True</drugForHarvestPurposes>
       <harvestYield>9</harvestYield>
       <sowTags>
@@ -80,7 +80,7 @@
       </sowTags>
 	    <sowMinSkill>5</sowMinSkill>
 	    <sowResearchPrerequisites>
-        <li>SD_DwarvenDrugPlants</li>
+        <li>ISA_DwarvenDrugPlants</li>
       </sowResearchPrerequisites>
       <topWindExposure>0</topWindExposure>
       <growDays>10.5</growDays>
@@ -94,7 +94,7 @@
     <!-- Bull's Horns -->
 
   <ThingDef ParentName="CavePlantBase">
-    <defName>SD_Plant_BullHorns</defName>
+    <defName>ISA_Plant_BullHorns</defName>
     <label>bull's Horns</label>
     <description>A tough plant with large starchy "horns" which give it it's iconic name. The growths are spicy and make for a good ingredient. It can grow on fungal gravel, but only in darkness - exposing it to any kind of light, including darklights, will kill it.</description>
     <statBases>
@@ -116,7 +116,7 @@
       <fertilityMin>0.3</fertilityMin>
       <fertilitySensitivity>0.15</fertilitySensitivity>
       <harvestTag>Standard</harvestTag>
-      <harvestedThingDef>SD_RawBullHorns</harvestedThingDef>
+      <harvestedThingDef>ISA_RawBullHorns</harvestedThingDef>
 	  <drugForHarvestPurposes>True</drugForHarvestPurposes>
       <harvestYield>9</harvestYield>
       <sowTags>
@@ -125,7 +125,7 @@
       </sowTags>
 	    <sowMinSkill>7</sowMinSkill>
 	    <sowResearchPrerequisites>
-        <li>SD_DwarvenDrugPlants</li>
+        <li>ISA_DwarvenDrugPlants</li>
       </sowResearchPrerequisites>
       <topWindExposure>0</topWindExposure>
       <growDays>14</growDays>
