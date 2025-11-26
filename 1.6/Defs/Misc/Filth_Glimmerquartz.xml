@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BaseFilth">
+    <defName>Filth_Glimmerquartz</defName>
+    <label>glimmer rubble</label>
+    <graphicData>
+      <texPath>Things/Natural/GlimmerMisc/GlimmerquartzFilth</texPath>
+    </graphicData>
+    <filth>
+      <disappearsInDays>45~50</disappearsInDays>
+      <cleaningWorkToReduceThickness>35</cleaningWorkToReduceThickness>
+    </filth>
+  </ThingDef>
+
+</Defs>
