@@ -2,12 +2,12 @@
 <Defs>
 
     <ThingDef ParentName="DrugBase">
-        <defName>SD_Alkahest</defName>
+        <defName>ISA_Alkahest</defName>
         <label>alkahest</label>
         <description>A complex mix of various chemicals, mechanites and stimulants commonly used by high ranking stoneborn. It dramatically improves focus and mental capabilities, as well as almost nullifying the need for rest. Alkahest has no lasting effects with regular dosage, but withdrawals from it can be brutally mind-numbing due to the brain adapting without the constant stimulation.\n\nAfter the first dose, there is no way to get the mechanites out, ever.\n\nDue to its frequent use by aristocrats, the sickly green color it imparts on the veins of its users, and its difficulty to obtain, the nobility and even royalty have nicknamed the drug "Emperor's Venom." Many subtle plots and brazen acts of betrayal in the upper echelons of society have been solely dedicated to obtaining even a single syringe of Alkahest.</description>
         <descriptionHyperlinks>
-          <HediffDef>SD_AlkahestHigh</HediffDef>
-          <HediffDef>SD_AlkahestAddiction</HediffDef>
+          <HediffDef>ISA_AlkahestHigh</HediffDef>
+          <HediffDef>ISA_AlkahestAddiction</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
           <texPath>Things/Alkahest</texPath>
@@ -30,11 +30,11 @@
           <ingestReportString>Injecting {0}.</ingestReportString>
           <outcomeDoers>
             <li Class="IngestionOutcomeDoer_GiveHediff">
-                <hediffDef>SD_GreenVeins</hediffDef>
+                <hediffDef>ISA_GreenVeins</hediffDef>
                 <severity>0.28</severity>
             </li>
             <li Class="IngestionOutcomeDoer_GiveHediff">
-              <hediffDef>SD_AlkahestHigh</hediffDef>
+              <hediffDef>ISA_AlkahestHigh</hediffDef>
               <severity>1</severity>
             </li>
             <li Class="IngestionOutcomeDoer_OffsetNeed">
@@ -45,7 +45,7 @@
         </ingestible>
         <comps>
           <li Class="CompProperties_Drug">
-            <chemical>SD_Alkahest</chemical>
+            <chemical>ISA_Alkahest</chemical>
             <addictiveness>1.00</addictiveness>
             <existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
             <needLevelOffset>0.9</needLevelOffset>
