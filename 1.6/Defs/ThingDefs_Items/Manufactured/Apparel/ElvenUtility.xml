@@ -1,126 +1,134 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Name="DevDesigner_WoodElves_Utility" Abstract="True" ParentName="ApparelMakeableBase">
-    <techLevel>Medieval</techLevel>
-    <tradeability>Sellable</tradeability>
-    <generateCommonality>0.001</generateCommonality>
+  <ThingDef Name="DevDesigner_Utility_QuiverBase" Abstract="true" ParentName="ApparelMakeableBase">
+    <description>A wearable leather container designed for holding arrows. Wearing the quiver reduces the time it takes to shoot for bows and crossbows.</description>
+    <techLevel>Neolithic</techLevel>
+
+    <statBases>
+      <Mass>1</Mass>
+      <WorkToMake>4700</WorkToMake>
+      <Flammability>0.4</Flammability>
+      <EquipDelay>1</EquipDelay>
+      <VEF_RangedCooldownFactor>0.27</VEF_RangedCooldownFactor>
+    </statBases>
+
+    <costList>
+      <Leather_Plain>60</Leather_Plain>
+    </costList>
+
+    <thingCategories>
+      <li>ApparelUtility</li>
+    </thingCategories>
+    <generateAllowChance>0.001</generateAllowChance>
 
     <recipeMaker>
-      <researchPrerequisite>DevDesigner_ElvenEquipment_WoodElves</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>4</Crafting>
-      </skillRequirements>
       <recipeUsers>
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
     </recipeMaker>
 
-    <colorGenerator Class="ColorGenerator_StandardApparel" />
-  </ThingDef>
-
-  <!-- DevDesigner_WoodElves_Boots -->
-  <ThingDef ParentName="DevDesigner_WoodElves_Utility">
-    <defName>DevDesigner_WoodElves_Boots</defName>
-    <label>elven boots</label>
-    <description>Wearing leather boots will increase movement speed.</description>
-
-    <graphicData>
-      <texPath>Apparel/Boots/Boots</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.65</drawSize>
-    </graphicData>
-
-    <stuffCategories>
-      <li>Leathery</li>
-    </stuffCategories>
-    <costStuffCount>50</costStuffCount>
-
-    <statBases>
-      <MaxHitPoints>115</MaxHitPoints>
-      <WorkToMake>1000</WorkToMake>
-      <Mass>0.25</Mass>
-      <StuffEffectMultiplierArmor>0.18</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.35</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.35</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>1</EquipDelay>
-    </statBases>
-
-    <equippedStatOffsets>
-      <MoveSpeed>0.15</MoveSpeed>
-    </equippedStatOffsets>
-
-    <thingCategories Inherit="False">
-      <li>DevDesigner_Footwear</li>
-    </thingCategories>
-
     <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <bodyPartGroups>
-        <li>Feet</li>
+        <li>Shoulders</li>
       </bodyPartGroups>
       <layers>
-        <li>Middle</li>
+        <li>Belt</li>
       </layers>
-      <tags>
-        <li>DevDesigner_WoodElves_Apparel</li>
-        <li>DevDesigner_WoodElves_Light</li>
-        <li>DevDesigner_WoodElves_Footware</li>
-      </tags>
-      <defaultOutfitTags></defaultOutfitTags>
+
+      <wornGraphicData>
+        <renderUtilityAsPack>true</renderUtilityAsPack>
+        <north>
+          <offset>(0.0,-0.1)</offset>
+          <hulk><offset>(-0.0,-0.1)</offset></hulk>
+          <fat><offset>(-0.0,-0.0)</offset></fat>
+          <thin><offset>(0.0,-0.0)</offset></thin>
+        </north>
+        <south>
+          <offset>(0.0,0.20)</offset>
+          <female><offset>(0.0,-0.2)</offset> </female>
+          <hulk><offset>(-0.0,-0.0)</offset></hulk>
+          <fat><offset>(-0.0,-0.0)</offset></fat>
+          <thin><offset>(-0.0,-0.25)</offset></thin>
+        </south>
+        <east>
+          <offset>(-0.3,-0.15)</offset>
+          <male><offset>(0.0,0.15)</offset> </male>
+          <female><offset>(0.1,0.15)</offset> </female>
+          <hulk><offset>(-0.12,-0.0)</offset></hulk>
+          <fat><offset>(-0.10,-0.0)</offset></fat>
+          <thin><offset>(0.05,-0.0)</offset></thin>
+        </east>
+        <west>
+          <offset>(0.3,-0.15)</offset>
+          <male><offset>(0.0,0.15)</offset> </male>
+          <female><offset>(-0.1,0.15)</offset> </female>
+          <hulk><offset>(0.12,-0.0)</offset></hulk>
+          <fat><offset>(0.10,-0.0)</offset></fat>
+          <thin><offset>(-0.05,-0.0)</offset></thin>
+        </west>
+        <male> <scale>(0.6,0.6)</scale></male>
+        <female><scale>(0.6,0.6)</scale></female>
+        <thin><scale>(0.6,0.6)</scale></thin>
+        <hulk><scale>(0.7,0.7)</scale></hulk>
+        <fat> <scale>(0.75,0.75)</scale></fat>
+      </wornGraphicData>
     </apparel>
+
+    <modExtensions>
+      <li Class="VEF.Planet.EquipmentOffsetConditions">
+        <techLevels>
+          <li>Neolithic</li>
+          <li>Medieval</li>
+        </techLevels>
+      </li>
+    </modExtensions>
   </ThingDef>
 
-  <!-- DevDesigner_WoodElves_Gloves -->
-  <ThingDef ParentName="DevDesigner_WoodElves_Utility">
-    <defName>DevDesigner_WoodElves_Gloves</defName>
-    <label>elven gloves</label>
-    <description>Wearing leather gloves will increase workspeed and shooting accuracy.</description>
+  <ThingDef ParentName="DevDesigner_Utility_QuiverBase">
+    <defName>DevDesigner_HighElves_Quiver</defName>
+    <label>arrow quiver</label>
 
     <graphicData>
-      <texPath>Apparel/Gloves/Gloves</texPath>
+      <texPath>Apparel/Utility/ArrowQuiver/Quiver</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.8</drawSize>
     </graphicData>
 
-    <stuffCategories>
-      <li>Leathery</li>
-    </stuffCategories>
-    <costStuffCount>50</costStuffCount>
+    <apparel>
+      <wornGraphicPath>Apparel/Utility/ArrowQuiver/Quiver</wornGraphicPath>
+      <tags>
+        <li>DevDesigner_HighElves_Quiver</li>
+      </tags>
+    </apparel>
 
-    <statBases>
-      <MaxHitPoints>115</MaxHitPoints>
-      <WorkToMake>1000</WorkToMake>
-      <Mass>0.25</Mass>
-      <StuffEffectMultiplierArmor>0.18</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.35</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.35</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>1</EquipDelay>
-    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>DevDesigner_ElvenEquipment_HighElves</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
 
-    <equippedStatOffsets>
-      <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
-      <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
-    </equippedStatOffsets>
+  <ThingDef ParentName="DevDesigner_Utility_QuiverBase">
+    <defName>DevDesigner_DarkElves_Quiver</defName>
+    <label>bolt quiver</label>
 
-    <thingCategories Inherit="False">
-      <li>DevDesigner_Handwear</li>
-    </thingCategories>
+    <graphicData>
+      <texPath>Apparel/Utility/BoltQuiver/Quiver</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
 
     <apparel>
-      <bodyPartGroups>
-        <li>Hands</li>
-      </bodyPartGroups>
-      <layers>
-        <li>Middle</li>
-      </layers>
+      <wornGraphicPath>Apparel/Utility/BoltQuiver/Quiver</wornGraphicPath>
       <tags>
-        <li>DevDesigner_WoodElves_Apparel</li>
-        <li>DevDesigner_WoodElves_Light</li>
-        <li>DevDesigner_WoodElves_Handware</li>
+        <li>DevDesigner_DarkElves_Quiver</li>
       </tags>
-      <defaultOutfitTags></defaultOutfitTags>
     </apparel>
+
+    <recipeMaker>
+      <researchPrerequisite>DevDesigner_ElvenEquipment_DarkElves</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
 
 </Defs>
