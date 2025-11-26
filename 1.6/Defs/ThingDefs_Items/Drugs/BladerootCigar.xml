@@ -15,7 +15,7 @@
     </descriptionHyperlinks>
     <graphicData>
       <drawSize>0.85</drawSize>
-      <texPath>Things/Cigar</texPath>
+      <texPath>Things/Items/Drugs/Cigar</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <rotatable>false</rotatable>
