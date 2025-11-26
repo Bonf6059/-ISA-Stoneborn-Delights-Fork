@@ -15,7 +15,7 @@
   
 
     <ThingDef ParentName="RockBase">
-        <defName>SD_GlimmerquartzOre</defName>
+        <defName>ISA_GlimmerquartzOre</defName>
         <label>glimmerquartz</label>
         <description>A bright, pinkish crystal. The sun filters through it, basking the ground around it in a beautiful pink.</description>
         <graphicData>
@@ -56,17 +56,17 @@
         </statBases>
         <soundDrop>ChunkRock_Drop</soundDrop>
         <butcherProducts>
-          <SD_Glimmerquartz>20</SD_Glimmerquartz>
+          <ISA_Glimmerquartz>20</ISA_Glimmerquartz>
         </butcherProducts>
       </ThingDef>
 
     <ThingDef ParentName="DrugBase">
-        <defName>SD_Glimmerquartz</defName>
+        <defName>ISA_Glimmerquartz</defName>
         <label>glimmerquartz</label>
         <description>A small crystal of glimmerquartz, cut from a chunk to a more edible size. The chemical makeup of glimmerquartz makes it a highly potent stimulant that gives anyone who consumes it an feeling of euphoria and an overabundance of energy, so much so that the person would much prefer to run around and burn said energy rather than sit and do work. It is also a very pleasant sweetener, making it useful for certain stoneborn recipes. Entire stoneborn mining operations are dedicated to extracting these sugary crystals for consumption and processing.</description>
         <descriptionHyperlinks>
-          <HediffDef>SD_GlimmerHigh</HediffDef>
-          <HediffDef>SD_GlimmerAddiction</HediffDef>
+          <HediffDef>ISA_GlimmerHigh</HediffDef>
+          <HediffDef>ISA_GlimmerAddiction</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
           <texPath>Things/Glimmerquartz</texPath>
@@ -99,20 +99,20 @@
           <chairSearchRadius>0</chairSearchRadius>
           <outcomeDoers>
             <li Class="IngestionOutcomeDoer_GiveHediff">
-              <hediffDef>SD_GlimmerHigh</hediffDef>
+              <hediffDef>ISA_GlimmerHigh</hediffDef>
               <severity>1.0</severity>
-              <toleranceChemical>SD_Glimmer</toleranceChemical>
+              <toleranceChemical>ISA_Glimmer</toleranceChemical>
             </li>
             <li Class="IngestionOutcomeDoer_OffsetNeed">
               <need>Food</need>
               <offset>0.2</offset>
-              <toleranceChemical>SD_Glimmer</toleranceChemical>
+              <toleranceChemical>ISA_Glimmer</toleranceChemical>
             </li>
           </outcomeDoers>
           </ingestible>
         <comps>
           <li Class="CompProperties_Drug">
-            <chemical>SD_Glimmer</chemical>
+            <chemical>ISA_Glimmer</chemical>
             <addictiveness>0.025</addictiveness>
             <existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
             <needLevelOffset>0.9</needLevelOffset>
