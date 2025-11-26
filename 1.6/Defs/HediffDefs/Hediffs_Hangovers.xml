@@ -15,12 +15,12 @@
           </li>
           <li Class="StonebornDelights.HediffCompProperties_HiddenWith">
             <hiderHediffs>
-             <li>SD_HiveHigh</li>
-             <li>SD_SWHigh</li>
-             <li>SD_ShroomHigh</li>
-             <li>SD_ForgeHigh</li>
-             <li>SD_ShatterbrewHigh</li>
-             <li>SD_ElixirHigh</li>
+             <li>ISA_HiveHigh</li>
+             <li>ISA_SWHigh</li>
+             <li>ISA_ShroomHigh</li>
+             <li>ISA_ForgeHigh</li>
+             <li>ISA_ShatterbrewHigh</li>
+             <li>ISA_ElixirHigh</li>
             </hiderHediffs>
           </li>
         </comps>
@@ -102,12 +102,12 @@
           </li>
           <li Class="StonebornDelights.HediffCompProperties_HiddenWith">
             <hiderHediffs>
-             <li>SD_HiveHigh</li>
-             <li>SD_SWHigh</li>
-             <li>SD_ShroomHigh</li>
-             <li>SD_ForgeHigh</li>
-             <li>SD_ShatterbrewHigh</li>
-             <li>SD_ElixirHigh</li>
+             <li>ISA_HiveHigh</li>
+             <li>ISA_SWHigh</li>
+             <li>ISA_ShroomHigh</li>
+             <li>ISA_ForgeHigh</li>
+             <li>ISA_ShatterbrewHigh</li>
+             <li>ISA_ElixirHigh</li>
             </hiderHediffs>
           </li>
         </comps>
