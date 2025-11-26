@@ -7,29 +7,22 @@
 	</supportedVersions>
 	<modDependencies>
 		<li>
-			<packageId>brrainz.harmony</packageId>
-			<displayName>Harmony</displayName>
-			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
-			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+			<packageId>det.stoneborn</packageId>
+			<displayName>Det's Xenotypes - Stoneborn</displayName>
+			<downloadUrl>https://github.com/DetVisor/StonebornXenotype/tree/main</downloadUrl>
 		</li>
 		<li>
-			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
-			<displayName>Vanilla Expanded Framework</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1854607105</steamWorkshopUrl>
-			<downloadUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</downloadUrl>
+			<packageId>ISA.Medieval</packageId>
+			<displayName>[ISA] Medieval</displayName>
+			<downloadUrl>https://github.com/Bonf6059/ISA-Medieval</downloadUrl>
 		</li>
-		<li>
-			<packageId>syrchalis.processor.framework</packageId>
-			<displayName>[SYR] Processor Framework</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3210544395</steamWorkshopUrl>
-		</li>
+		
 	</modDependencies>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
-		<li>brrainz.harmony</li>
-		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
-		<li>syrchalis.processor.framework</li>
+		<li>det.stoneborn</li>
+		<li>ISA.Medieval</li>
 	</loadAfter>
 	<packageId>ISA.sbdelights</packageId>
 	<description>Enrich your stoneborne experience with a new set of recreational and useful drugs!</description>
