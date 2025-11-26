@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- DevDesigner_SpearBase -->
-  <ThingDef Name="DevDesigner_SpearBase" Abstract="True" ParentName="BaseMeleeWeapon_Sharp_Quality">
+  <!-- ISA_SpearBase -->
+  <ThingDef Name="ISA_SpearBase" Abstract="True" ParentName="BaseMeleeWeapon_Sharp_Quality">
     <equippedAngleOffset>45</equippedAngleOffset>
     <techLevel>Medieval</techLevel>
     <uiIconScale>1.2</uiIconScale>
@@ -21,7 +21,7 @@
     </costList>
 
     <recipeMaker>
-      <researchPrerequisite>DevDesigner_ElvenEquipment_WoodElves</researchPrerequisite>
+      <researchPrerequisite>ISA_ElvenEquipment_WoodElves</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
@@ -32,7 +32,7 @@
     </recipeMaker>
   </ThingDef>
 
-  <ThingDef Name="DevDesigner_SwordBase" Abstract="True" ParentName="BaseMeleeWeapon_Sharp_Quality">
+  <ThingDef Name="ISA_SwordBase" Abstract="True" ParentName="BaseMeleeWeapon_Sharp_Quality">
     <techLevel>Medieval</techLevel>
     <equippedAngleOffset>-65</equippedAngleOffset>
 
@@ -40,7 +40,7 @@
     <relicChance>1</relicChance>
 
     <recipeMaker>
-      <researchPrerequisite>DevDesigner_ElvenEquipment_WoodElves</researchPrerequisite>
+      <researchPrerequisite>ISA_ElvenEquipment_WoodElves</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
@@ -59,9 +59,9 @@
 
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-  <!-- DevDesigner_WoodElves_Spear -->
-  <ThingDef ParentName="DevDesigner_SpearBase">
-    <defName>DevDesigner_WoodElves_Spear</defName>
+  <!-- ISA_WoodElves_Spear -->
+  <ThingDef ParentName="ISA_SpearBase">
+    <defName>ISA_WoodElves_Spear</defName>
     <label>elven spear</label>
     <description>This spear is wielded by the skilled archers and skirmishers of the Wood Elves. It is crafted from the finest yew wood and imbued with the magic of the forest. The spear is adorned with intricate designs and symbols. The spear is not only a formidable weapon on the battlefield, but also a symbol of the Wood Elves' respect for the natural world. The spear is also lightweight and well-balanced, making it perfect for the fast-moving and agile fighting style of the Wood Elves.</description>
     <graphicData>
@@ -92,7 +92,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>DevDesigner_WoodElves_Spear</li>
+      <li>ISA_WoodElves_Spear</li>
     </weaponTags>
     <modExtensions>
       <li Class="VEF.Things.ThingDefExtension">
@@ -121,9 +121,9 @@
 
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-  <!-- DevDesigner_WoodElves_ShamanStaff -->
+  <!-- ISA_WoodElves_ShamanStaff -->
   <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
-    <defName>DevDesigner_WoodElves_ShamanStaff</defName>
+    <defName>ISA_WoodElves_ShamanStaff</defName>
     <label>shaman staff</label>
     <description>The elven shaman staff is a sacred and powerful weapon, favored by the spiritual leaders of the elven race. It is a tall, intricately carved staff, made from the finest wood available. The staff is adorned with intricate designs and symbols that are said to channel the spiritual energies of the forest. The elven shaman staff is a powerful tool, used by the shamans to communicate with the spirits, and to harness the magic of the forest.</description>
     <graphicData>
@@ -142,7 +142,7 @@
       <WoodLog>120</WoodLog>
     </costList>
     <weaponTags>
-      <li>DevDesigner_WoodElves_ShamanStaff</li>
+      <li>ISA_WoodElves_ShamanStaff</li>
     </weaponTags>
     <tools>
       <li>
@@ -166,7 +166,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>DevDesigner_ElvenEquipment_WoodElves</researchPrerequisite>
+      <researchPrerequisite>ISA_ElvenEquipment_WoodElves</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
@@ -201,9 +201,9 @@
     </modExtensions>
   </ThingDef>
 
-  <!-- DevDesigner_WoodElves_Sword -->
-  <ThingDef ParentName="DevDesigner_SwordBase">
-    <defName>DevDesigner_WoodElves_Sword</defName>
+  <!-- ISA_WoodElves_Sword -->
+  <ThingDef ParentName="ISA_SwordBase">
+    <defName>ISA_WoodElves_Sword</defName>
     <label>elven sword</label>
     <description>The elven sword is a slender, elegant weapon, favored by the skilled warriors of the elven race. It is a finely crafted weapon, with a long, curved blade. The blade is made from a rare, shimmering metal that is said to possess magical properties, and is sharp enough to cut through even the toughest armor with ease. The hilt of the sword is adorned with intricate designs and symbols. The sword is a symbol of grace and beauty, and is wielded with great skill and precision by those who are trained in its use. It is a weapon that is greatly respected by all who face it on the battlefield, and is feared by those who dare to stand against it.</description>
 
@@ -213,7 +213,7 @@
     </graphicData>
 
     <weaponTags>
-      <li>DevDesigner_WoodElves_Sword</li>
+      <li>ISA_WoodElves_Sword</li>
     </weaponTags>
     <costStuffCount>100</costStuffCount>
     <stuffCategories>
@@ -257,7 +257,7 @@
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-    <defName>DevDesigner_WoodElves_Axe</defName>
+    <defName>ISA_WoodElves_Axe</defName>
     <label>elven axe</label>
     <description>The elven axe is a finely crafted weapon, favored by the skilled warriors of the elven race. It is a lightweight, yet powerful weapon, with a sharp, curved blade that is capable of delivering devastating blows. The blade is made from a rare, shimmering metal that is said to possess magical properties, and is strong enough to chop through even the toughest armor with ease. The handle of the axe is adorned with intricate designs and symbols, and is often carved from the finest wood available.</description>
     <techLevel>Medieval</techLevel>
@@ -270,7 +270,7 @@
       <Mass>1.5</Mass>
     </statBases>
     <recipeMaker>
-      <researchPrerequisite>DevDesigner_ElvenEquipment_WoodElves</researchPrerequisite>
+      <researchPrerequisite>ISA_ElvenEquipment_WoodElves</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
@@ -283,7 +283,7 @@
       <li>Metallic</li>
     </stuffCategories>
     <weaponTags>
-      <li>DevDesigner_WoodElves_Axe</li>
+      <li>ISA_WoodElves_Axe</li>
     </weaponTags>
     <tools>
       <li>
@@ -315,7 +315,7 @@
     </graphicData>
   </ThingDef>
 
-  <ThingDef Name="DevDesigner_Base_Sharp_Oversize" Abstract="True" ParentName="BaseMeleeWeapon_Sharp_Quality">
+  <ThingDef Name="ISA_Base_Sharp_Oversize" Abstract="True" ParentName="BaseMeleeWeapon_Sharp_Quality">
     <modExtensions>
       <li Class="VEF.Things.ThingDefExtension">
         <weaponDraftedDrawOffsets>
@@ -341,7 +341,7 @@
     <!--equippedAngleOffset>-45</equippedAngleOffset-->
     <techLevel>Medieval</techLevel>
     <recipeMaker>
-      <researchPrerequisite>DevDesigner_ElvenEquipment_WoodElves</researchPrerequisite>
+      <researchPrerequisite>ISA_ElvenEquipment_WoodElves</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
@@ -352,8 +352,8 @@
     </recipeMaker>
   </ThingDef>
 
-  <ThingDef ParentName="DevDesigner_Base_Sharp_Oversize">
-    <defName>DevDesigner_WoodElves_Greatsword</defName>
+  <ThingDef ParentName="ISA_Base_Sharp_Oversize">
+    <defName>ISA_WoodElves_Greatsword</defName>
     <label>elven greatsword</label>
     <description>The elven greatsword is a massive, two-handed weapon, favored by the elite warriors of the elven race. It is a beautifully crafted weapon, with a long, slender blade. The blade is made from a rare, shimmering metal that is said to possess magical properties, and is sharp enough to cut through even the toughest armor with ease. The hilt of the greatsword is adorned with intricate designs and symbols, and is often encrusted with precious gems and jewels. The greatsword is a symbol of power and strength, and is wielded with honor and pride by those who are skilled enough to wield it. It is a weapon that strikes fear into the hearts of its enemies, and is greatly respected by all who face it on the battlefield.</description>
     <graphicData>
@@ -373,7 +373,7 @@
     </stuffCategories>
 
     <weaponTags>
-      <li>DevDesigner_WoodElves_Greatsword</li>
+      <li>ISA_WoodElves_Greatsword</li>
     </weaponTags>
 
     <tools>
@@ -398,9 +398,9 @@
     </tools>
   </ThingDef>
 
-  <!-- DevDesigner_WoodElves_Greataxe -->
+  <!-- ISA_WoodElves_Greataxe -->
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-    <defName>DevDesigner_WoodElves_Greataxe</defName>
+    <defName>ISA_WoodElves_Greataxe</defName>
     <label>elven greataxe</label>
     <description>The elven greataxe is a massive, two-handed weapon, favored by the fierce warriors of the elven race. It is a formidable weapon, with a wide, curved blade that is capable of delivering devastating blows. The blade is made from a rare, shimmering metal that is said to possess magical properties, and is strong enough to chop through even the toughest armor with ease. The handle of the greataxe is adorned with intricate designs and symbols, and is often carved from the finest wood available. The greataxe is a symbol of power and strength, and is wielded with great skill and precision by those who are trained in its use. It is a weapon that strikes fear into the hearts of its enemies, and is greatly respected by all who face it on the battlefield.</description>
     <graphicData>
@@ -424,7 +424,7 @@
       <li>Metallic</li>
     </stuffCategories>
     <weaponTags>
-      <li>DevDesigner_WoodElves_Greataxe</li>
+      <li>ISA_WoodElves_Greataxe</li>
     </weaponTags>
     <weaponClasses>
       <li>Melee</li>
@@ -455,7 +455,7 @@
       <MoveSpeed>-0.1</MoveSpeed>
     </equippedStatOffsets>
     <recipeMaker>
-      <researchPrerequisite>DevDesigner_ElvenEquipment_WoodElves</researchPrerequisite>
+      <researchPrerequisite>ISA_ElvenEquipment_WoodElves</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
