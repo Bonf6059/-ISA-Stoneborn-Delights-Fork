@@ -2,7 +2,7 @@
 <Defs>
 <!--
 <RecipeDef>
-    <defName>SD_Make_ElixirMush</defName>
+    <defName>ISA_Make_ElixirMush</defName>
     <label>make elixir mush</label>
     <description>Make elixir mush from bladeroot and bull's horns.</description>
     <jobString>Making elixir mush.</jobString>
@@ -20,8 +20,8 @@
       <li>
         <filter>
           <thingDefs>
-            <li>SD_RawBullHorns</li>
-            <li>SD_RawBladeroot</li>
+            <li>ISA_RawBullHorns</li>
+            <li>ISA_RawBladeroot</li>
           </thingDefs>
         </filter>
         <count>15</count>
@@ -29,18 +29,18 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>SD_RawBullHorns</li>
-        <li>SD_RawBladeroot</li>
+        <li>ISA_RawBullHorns</li>
+        <li>ISA_RawBladeroot</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <SD_ElixirMush>5</SD_ElixirMush>
+      <ISA_ElixirMush>5</ISA_ElixirMush>
     </products>
   </RecipeDef>
 -->
 
   <RecipeDef>
-    <defName>SD_MakeLiquorSmush</defName>
+    <defName>ISA_MakeLiquorSmush</defName>
     <label>make forge smush</label>
     <description>Make forge smush from stoutcap and bull's horns, and a random chunk.</description>
     <jobString>Making wort.</jobString>
@@ -51,7 +51,7 @@
     <allowMixingIngredients>true</allowMixingIngredients>
     <workAmount>1000</workAmount>
     <targetCountAdjustment>1</targetCountAdjustment>
-    <researchPrerequisite>SD_ProcessedDrugs</researchPrerequisite>
+    <researchPrerequisite>ISA_ProcessedDrugs</researchPrerequisite>
     <recipeUsers>
       <li>ElectricSmelter</li>
     </recipeUsers>
@@ -59,7 +59,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>SD_RawBullHorns</li>
+            <li>ISA_RawBullHorns</li>
           </thingDefs>
         </filter>
         <count>15</count>
@@ -67,7 +67,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>SD_RawStoutcap</li>
+            <li>ISA_RawStoutcap</li>
           </thingDefs>
         </filter>
         <count>15</count>
@@ -83,20 +83,20 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>SD_RawStoutcap</li>
-        <li>SD_RawBullHorns</li>
+        <li>ISA_RawStoutcap</li>
+        <li>ISA_RawBullHorns</li>
       </thingDefs>
       <categories>
         <li>StoneChunks</li>
       </categories>
     </fixedIngredientFilter>
     <products>
-      <SD_LiquorSmush>5</SD_LiquorSmush>
+      <ISA_LiquorSmush>5</ISA_LiquorSmush>
     </products>
   </RecipeDef>
 
   <RecipeDef>
-    <defName>SD_MakeElixirMush</defName>
+    <defName>ISA_MakeElixirMush</defName>
     <label>make elixir mush</label>
     <description>Make elixir smush from bladeroot and bull's horns..</description>
     <jobString>Making elixir mush.</jobString>
@@ -107,7 +107,7 @@
     <allowMixingIngredients>true</allowMixingIngredients>
     <workAmount>1000</workAmount>
     <targetCountAdjustment>1</targetCountAdjustment>
-    <researchPrerequisite>SD_ProcessedDrugs</researchPrerequisite>
+    <researchPrerequisite>ISA_ProcessedDrugs</researchPrerequisite>
     <recipeUsers>
       <li>Brewery</li>
     </recipeUsers>
@@ -115,7 +115,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>SD_RawBullHorns</li>
+            <li>ISA_RawBullHorns</li>
           </thingDefs>
         </filter>
         <count>15</count>
@@ -123,7 +123,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>SD_RawBladeroot</li>
+            <li>ISA_RawBladeroot</li>
           </thingDefs>
         </filter>
         <count>10</count>
@@ -131,15 +131,15 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>SD_RawStoutcap</li>
-        <li>SD_RawBladeroot</li>
+        <li>ISA_RawStoutcap</li>
+        <li>ISA_RawBladeroot</li>
       </thingDefs>
       <categories>
         <li>StoneChunks</li>
       </categories>
     </fixedIngredientFilter>
     <products>
-      <SD_ElixirMush>5</SD_ElixirMush>
+      <ISA_ElixirMush>5</ISA_ElixirMush>
     </products>
   </RecipeDef>
 </Defs>
