@@ -2,14 +2,14 @@
 <Defs>
 
     <ThingDef ParentName="MakeableDrugBase">
-        <defName>SD_BeardWax</defName>
+        <defName>ISA_BeardWax</defName>
         <label>beard wax</label>
         <description>A quality hair wax specially made for styling the prodigious hair of the stoneborn. Application of a tin of beard wax imparts an alluring sheen on the beards of even the most quarry-worn dwarves, while putting stray strands of hair in their place; perfect for any social function where impressions matter. For those unfortunate enough to not have a prodigious beard, it is also a lovely facial moisturizer.</description>
 		<possessionCount>3</possessionCount>
         <techLevel>Industrial</techLevel>
         <stackLimit>35</stackLimit>
         <descriptionHyperlinks>
-            <HediffDef>SD_BeardWaxHediff</HediffDef>
+            <HediffDef>ISA_BeardWaxHediff</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
             <texPath>Things/BeardWax</texPath>
@@ -36,7 +36,7 @@
             <chairSearchRadius>0</chairSearchRadius>
             <outcomeDoers>
                 <li Class="IngestionOutcomeDoer_GiveHediff">
-                    <hediffDef>SD_BeardWaxHediff</hediffDef>
+                    <hediffDef>ISA_BeardWaxHediff</hediffDef>
                     <severity>1.0</severity>
                 </li>
             </outcomeDoers>
@@ -46,7 +46,7 @@
           <Steel>4</Steel>
         </costList>
         <recipeMaker>
-            <researchPrerequisite>SD_ProcessedDrugs</researchPrerequisite>
+            <researchPrerequisite>ISA_ProcessedDrugs</researchPrerequisite>
             <skillRequirements>
                 <Intellectual>6</Intellectual>
             </skillRequirements>
