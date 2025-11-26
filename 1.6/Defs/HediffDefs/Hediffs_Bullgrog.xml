@@ -20,7 +20,7 @@
         <showHoursToRecover>true</showHoursToRecover>
       </li>
       <li Class="StonebornDelights.HediffCompProperties_Hangover">
-        <hangover>ISA_LightHangover</hangover>
+        <hangover>SD_LightHangover</hangover>
         <minHangoverStage>3</minHangoverStage>
       </li>
     </comps>
