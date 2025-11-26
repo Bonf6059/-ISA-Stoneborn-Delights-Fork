@@ -15,7 +15,7 @@
     </descriptionHyperlinks>
     <possessionCount>2</possessionCount>
     <graphicData>
-      <texPath>Things/Sweetwine</texPath>
+      <texPath>Things/Items/Drugs/Sweetwine</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <equippedAngleOffset>-150</equippedAngleOffset>
