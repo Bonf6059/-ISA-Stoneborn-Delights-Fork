@@ -21,7 +21,7 @@
           </thingDefs>
         </fixedIngredientFilter>
         <products>
-          <SD_Glimmerquartz>20</SD_Glimmerquartz>
+          <ISA_Glimmerquartz>20</ISA_Glimmerquartz>
         </products>
       </RecipeDef>
 
