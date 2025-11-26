@@ -1,25 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="BaseFilth">
-    <defName>Filth_Glimmerquartz</defName>
-    <label>glimmer rubble</label>
-    <graphicData>
-      <texPath>Things/GlimmerMisc/GlimmerquartzFilth</texPath>
-    </graphicData>
-    <filth>
-      <disappearsInDays>45~50</disappearsInDays>
-      <cleaningWorkToReduceThickness>35</cleaningWorkToReduceThickness>
-    </filth>
-  </ThingDef>
-  
-
     <ThingDef ParentName="RockBase">
         <defName>ISA_GlimmerquartzOre</defName>
         <label>glimmerquartz</label>
         <description>A bright, pinkish crystal. The sun filters through it, basking the ground around it in a beautiful pink.</description>
         <graphicData>
-          <texPath>Things/GlimmerMisc/GlimmerquartzWalls/AtlasA</texPath>
+          <texPath>Things/Natural/GlimmerMisc/GlimmerquartzWalls/AtlasA</texPath>
           <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <filthLeaving>Filth_Glimmerquartz</filthLeaving>
@@ -41,7 +28,7 @@
         <label>glimmerquartz chunk</label>
         <description>A chunk of glimmer. Can be cut into valuable crystals.</description>
         <graphicData>
-          <texPath>Things/GlimmerMisc/GlimmerquartzChunks</texPath>
+          <texPath>Things/Natural/GlimmerMisc/GlimmerquartzChunks</texPath>
           <graphicClass>Graphic_Random</graphicClass>
           <flipExtraRotation>80</flipExtraRotation>
         </graphicData>
