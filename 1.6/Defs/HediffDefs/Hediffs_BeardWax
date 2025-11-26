@@ -2,7 +2,7 @@
 <Defs>
 
 	<HediffDef>
-        <defName>SD_BeardWaxHediff</defName>
+        <defName>ISA_BeardWaxHediff</defName>
         <hediffClass>HediffWithComps</hediffClass>
         <label>waxed and shined</label>
         <description>Shine like gold!</description>
