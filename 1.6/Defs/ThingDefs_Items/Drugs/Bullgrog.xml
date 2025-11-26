@@ -15,7 +15,7 @@
     </descriptionHyperlinks>
     <possessionCount>6</possessionCount>
     <graphicData>
-      <texPath>Things/Bullgrog</texPath>
+      <texPath>Things/Items/Drugs/Bullgrog</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <equippedAngleOffset>-150</equippedAngleOffset>
