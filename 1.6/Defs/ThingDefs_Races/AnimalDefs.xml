@@ -97,29 +97,29 @@
         <lifeStages>
           <li>
             <bodyGraphicData>
-              <texPath>Things/Animals/Glimmerbug/Fey</texPath>
+              <texPath>Things/Pawns/Animals/Glimmerbug/Fey</texPath>
               <shaderType>TransparentPostLight</shaderType>
               <drawSize>0.75</drawSize>
             </bodyGraphicData>
             <dessicatedBodyGraphicData>
-              <texPath>Things/Animals/Glimmerbug/Dessicated_Glimmerbug</texPath>
+              <texPath>Things/Pawns/Animals/Glimmerbug/Dessicated_Glimmerbug</texPath>
               <drawSize>0.75</drawSize>
             </dessicatedBodyGraphicData>
           </li>
           <li>
             <bodyGraphicData>
-              <texPath>Things/Animals/Glimmerbug/Fey</texPath>
+              <texPath>Things/Pawns/Animals/Glimmerbug/Fey</texPath>
               <shaderType>TransparentPostLight</shaderType>
               <drawSize>0.90</drawSize>
             </bodyGraphicData>
             <dessicatedBodyGraphicData>
-              <texPath>Things/Animals/Glimmerbug/Dessicated_Glimmerbug</texPath>
+              <texPath>Things/Pawns/Animals/Glimmerbug/Dessicated_Glimmerbug</texPath>
               <drawSize>0.90</drawSize>
             </dessicatedBodyGraphicData>
           </li>
           <li>
             <bodyGraphicData>
-              <texPath>Things/Animals/Glimmerbug/Fey</texPath>
+              <texPath>Things/Pawns/Animals/Glimmerbug/Fey</texPath>
               <shaderType>TransparentPostLight</shaderType>
               <drawSize>1</drawSize>
               <shadowData>
@@ -128,7 +128,7 @@
               </shadowData>
             </bodyGraphicData>
             <dessicatedBodyGraphicData>
-              <texPath>Things/Animals/Glimmerbug/Dessicated_Glimmerbug</texPath>
+              <texPath>Things/Pawns/Animals/Glimmerbug/Dessicated_Glimmerbug</texPath>
               <drawSize>1</drawSize>
             </dessicatedBodyGraphicData>
           </li>
