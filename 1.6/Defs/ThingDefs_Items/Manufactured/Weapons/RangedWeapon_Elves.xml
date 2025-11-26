@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- DevDesigner_DarkElves_Crossbow -->
+  <!-- ISA_DarkElves_Crossbow -->
   <ThingDef ParentName="BaseWeaponNeolithic">
-    <defName>DevDesigner_DarkElves_Crossbow</defName>
+    <defName>ISA_DarkElves_Crossbow</defName>
     <label>repeating crossbow</label>
     <description>The repeating crossbow is a formidable weapon, favored by the sinister dark elves. It is a brutal and efficient killing machine, designed to unleash a hail of bolts at a rapid pace. The string is made from a durable, synthetic material that can withstand the high tensions required to fire multiple bolts in quick succession. The dark elves repeating crossbow is a weapon of terror, feared by all who dare to stand against it.</description>
     <graphicData>
@@ -31,17 +31,17 @@
       <MoveSpeed>-0.1</MoveSpeed>
     </equippedStatOffsets>
     <weaponTags Inherit="False">
-      <li>DevDesigner_Elves_Weapons</li>
-      <li>DevDesigner_DarkElves_Weapons</li>
-      <li>DevDesigner_DarkElves_Ranged</li>
-      <li>DevDesigner_DarkElves_Crossbow</li>
+      <li>ISA_Elves_Weapons</li>
+      <li>ISA_DarkElves_Weapons</li>
+      <li>ISA_DarkElves_Ranged</li>
+      <li>ISA_DarkElves_Crossbow</li>
     </weaponTags>
     <weaponClasses Inherit="False">
       <li>Ranged</li>
       <li>RangedHeavy</li>
     </weaponClasses>
     <recipeMaker>
-      <researchPrerequisite>DevDesigner_ElvenEquipment_DarkElves</researchPrerequisite>
+      <researchPrerequisite>ISA_ElvenEquipment_DarkElves</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
@@ -54,7 +54,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>DevDesigner_DarkElvesBolt</defaultProjectile>
+        <defaultProjectile>ISA_DarkElvesBolt</defaultProjectile>
         <warmupTime>1.25</warmupTime>
         <range>28.9</range>
         <burstShotCount>1</burstShotCount>
@@ -75,9 +75,9 @@
     </tools>
   </ThingDef>
 
-  <!-- DevDesigner_DarkElvesBolt -->
+  <!-- ISA_DarkElvesBolt -->
   <ThingDef ParentName="BaseProjectileNeolithic">
-    <defName>DevDesigner_DarkElvesBolt</defName>
+    <defName>ISA_DarkElvesBolt</defName>
     <label>dark crossbow bolt</label>
     <graphicData>
       <texPath>Things/Projectile/Arrow_Small</texPath>
@@ -94,9 +94,9 @@
 
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-  <!-- DevDesigner_WoodElves_Bow -->
+  <!-- ISA_WoodElves_Bow -->
   <ThingDef ParentName="BaseWeaponNeolithic">
-    <defName>DevDesigner_WoodElves_Bow</defName>
+    <defName>ISA_WoodElves_Bow</defName>
     <label>elven bow</label>
     <description>The elven bow is a sleek and elegant weapon, favored by the skilled archers of the elven race. It is made from a single piece of finely crafted wood. The string is made from a special type of spider silk that is both strong and flexible, allowing for longer shots with greater accuracy. The bow is lightweight and easy to wield, making it the perfect choice for swift and graceful archers. The elven bow is a prized possession among the elven people, and is passed down from generation to generation as a symbol of skill and tradition.</description>
     <graphicData>
@@ -121,9 +121,9 @@
       <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
     </statBases>
     <weaponTags Inherit="False">
-      <li>DevDesigner_Elves_Weapons</li>
-      <li>DevDesigner_WoodElves_Weapons</li>
-      <li>DevDesigner_WoodElves_Ranged</li>
+      <li>ISA_Elves_Weapons</li>
+      <li>ISA_WoodElves_Weapons</li>
+      <li>ISA_WoodElves_Ranged</li>
     </weaponTags>
     <weaponClasses Inherit="False">
       <li>Ranged</li>
@@ -133,7 +133,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>DevDesigner_WoodElvesArrow</defaultProjectile>
+        <defaultProjectile>ISA_WoodElvesArrow</defaultProjectile>
         <warmupTime>2.0</warmupTime>
         <range>35.2</range>
         <soundCast>Bow_Large</soundCast>
@@ -151,7 +151,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>DevDesigner_ElvenEquipment_WoodElves</researchPrerequisite>
+      <researchPrerequisite>ISA_ElvenEquipment_WoodElves</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
@@ -204,9 +204,9 @@
     </modExtensions>
   </ThingDef>
 
-  <!-- DevDesigner_WoodElvesArrow -->
+  <!-- ISA_WoodElvesArrow -->
   <ThingDef ParentName="BaseProjectileNeolithic">
-    <defName>DevDesigner_WoodElvesArrow</defName>
+    <defName>ISA_WoodElvesArrow</defName>
     <label>elven bow arrow</label>
     <graphicData>
       <texPath>Things/Projectile/Arrow_Small</texPath>
@@ -223,9 +223,9 @@
 
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-  <!-- DevDesigner_WoodElves_Greatbow -->
+  <!-- ISA_WoodElves_Greatbow -->
   <ThingDef ParentName="BaseWeaponNeolithic">
-    <defName>DevDesigner_WoodElves_Greatbow</defName>
+    <defName>ISA_WoodElves_Greatbow</defName>
     <label>elven greatbow</label>
     <description>The elven greatbow is a finely crafted weapon, made by the skilled elven blacksmiths of the ancient forests. It is said that these greatbows are imbued with the magic of the forest itself, making them incredibly powerful and accurate. The bow is made from a single piece of beautifully carved wood. The string is made from a special type of spider silk that is both strong and flexible, allowing for longer shots with greater precision. It is a favored weapon of the elven archers, who are known for their deadly accuracy and quick reflexes.</description>
     <graphicData>
@@ -250,9 +250,9 @@
       <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
     </statBases>
     <weaponTags Inherit="False">
-      <li>DevDesigner_Elves_Weapons</li>
-      <li>DevDesigner_WoodElves_Weapons</li>
-      <li>DevDesigner_WoodElves_RangedHeavy</li>
+      <li>ISA_Elves_Weapons</li>
+      <li>ISA_WoodElves_Weapons</li>
+      <li>ISA_WoodElves_RangedHeavy</li>
     </weaponTags>
     <weaponClasses Inherit="False">
       <li>Ranged</li>
@@ -262,7 +262,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>DevDesigner_WoodElvesGreatArrow</defaultProjectile>
+        <defaultProjectile>ISA_WoodElvesGreatArrow</defaultProjectile>
         <warmupTime>2.25</warmupTime>
         <range>40.5</range>
         <soundCast>Bow_Large</soundCast>
@@ -280,7 +280,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>DevDesigner_ElvenEquipment_WoodElves</researchPrerequisite>
+      <researchPrerequisite>ISA_ElvenEquipment_WoodElves</researchPrerequisite>
       <skillRequirements>
         <Crafting>8</Crafting>
       </skillRequirements>
@@ -333,9 +333,9 @@
     </modExtensions>
   </ThingDef>
 
-  <!-- DevDesigner_WoodElvesGreatArrow -->
+  <!-- ISA_WoodElvesGreatArrow -->
   <ThingDef ParentName="BaseProjectileNeolithic">
-    <defName>DevDesigner_WoodElvesGreatArrow</defName>
+    <defName>ISA_WoodElvesGreatArrow</defName>
     <label>elven greatbow arrow</label>
     <graphicData>
       <texPath>Things/Projectile/Arrow_Small</texPath>
@@ -352,9 +352,9 @@
 
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-  <!-- DevDesigner_WoodElves_RecurveBow -->
+  <!-- ISA_WoodElves_RecurveBow -->
   <ThingDef ParentName="BaseWeaponNeolithic">
-    <defName>DevDesigner_WoodElves_RecurveBow</defName>
+    <defName>ISA_WoodElves_RecurveBow</defName>
     <label>elven recurve bow</label>
     <description>The Elven Recurve Bow is a finely crafted weapon favored by the skilled archers of the Elven courts. Made from a rare, enchanted wood that has been reinforced with metal, the bow is both lightweight and incredibly strong. It is capable of launching arrows with incredible speed and accuracy. The bow is adorned with intricate designs that have been etched into the wood and metal, giving it a sleek, elegant appearance. According to legend, the bow was crafted by the greatest artisans of the Elven lands, who imbued it with ancient, magical powers that enhance the accuracy and distance of the arrows it fires. The bow is said to be capable of hitting even the most elusive of targets.</description>
     <graphicData>
@@ -384,9 +384,9 @@
       <RangedWeapon_Cooldown>1.33</RangedWeapon_Cooldown>
     </statBases>
     <weaponTags Inherit="False">
-      <li>DevDesigner_Elves_Weapons</li>
-      <li>DevDesigner_WoodElves_Weapons</li>
-      <li>DevDesigner_WoodElves_RangedHeavy</li>
+      <li>ISA_Elves_Weapons</li>
+      <li>ISA_WoodElves_Weapons</li>
+      <li>ISA_WoodElves_RangedHeavy</li>
     </weaponTags>
     <weaponClasses Inherit="False">
       <li>Ranged</li>
@@ -396,7 +396,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>DevDesigner_WoodElvesArrow</defaultProjectile>
+        <defaultProjectile>ISA_WoodElvesArrow</defaultProjectile>
         <warmupTime>2</warmupTime>
         <range>42.5</range>
         <soundCast>Bow_Large</soundCast>
@@ -414,7 +414,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>DevDesigner_ElvenEquipment_WoodElves</researchPrerequisite>
+      <researchPrerequisite>ISA_ElvenEquipment_WoodElves</researchPrerequisite>
       <skillRequirements>
         <Crafting>8</Crafting>
       </skillRequirements>
@@ -468,9 +468,9 @@
 
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-  <!-- DevDesigner_HighElves_Longbow -->
+  <!-- ISA_HighElves_Longbow -->
   <ThingDef ParentName="BaseWeaponNeolithic">
-    <defName>DevDesigner_HighElves_Longbow</defName>
+    <defName>ISA_HighElves_Longbow</defName>
     <label>elven longbow</label>
     <description>This longbow is wielded by the High Elves. It is crafted from the finest wood and imbued with powerful magic imbued by the High Elves' mages. The longbow is adorned with intricate designs and symbols of the High Elves, representing their grace and nobility. Only the most skilled and honorable archers are worthy of wielding this longbow.</description>
     <graphicData>
@@ -495,8 +495,8 @@
       <RangedWeapon_Cooldown>1.33</RangedWeapon_Cooldown>
     </statBases>
     <weaponTags Inherit="False">
-      <li>DevDesigner_Elves_Weapons</li>
-      <li>DevDesigner_HighElves_Longbow</li>
+      <li>ISA_Elves_Weapons</li>
+      <li>ISA_HighElves_Longbow</li>
     </weaponTags>
     <weaponClasses Inherit="False">
       <li>Ranged</li>
@@ -506,7 +506,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>DevDesigner_WoodElvesArrow</defaultProjectile>
+        <defaultProjectile>ISA_WoodElvesArrow</defaultProjectile>
         <warmupTime>2</warmupTime>
         <range>42.5</range>
         <soundCast>Bow_Large</soundCast>
@@ -524,7 +524,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>DevDesigner_ElvenEquipment_HighElves</researchPrerequisite>
+      <researchPrerequisite>ISA_ElvenEquipment_HighElves</researchPrerequisite>
       <skillRequirements>
         <Crafting>8</Crafting>
       </skillRequirements>
