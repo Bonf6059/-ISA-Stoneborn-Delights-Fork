@@ -4,10 +4,10 @@
 <!-- Generic Chemical Def -->
 
   <ChemicalDef>
-    <defName>SD_DwarvenDrink</defName>
+    <defName>ISA_DwarvenDrink</defName>
     <label>dwarven brews</label>
-    <addictionHediff>SD_DwarvenBrewAddiction</addictionHediff>
-    <toleranceHediff>SD_DwarvenBrewTolerance</toleranceHediff>
+    <addictionHediff>ISA_DwarvenBrewAddiction</addictionHediff>
+    <toleranceHediff>ISA_DwarvenBrewTolerance</toleranceHediff>
     <onGeneratedAddictedToleranceChance>0.11</onGeneratedAddictedToleranceChance>
     <onGeneratedAddictedEvents>
       <li>
@@ -21,7 +21,7 @@
   </ChemicalDef>
 
   <NeedDef ParentName="DrugAddictionNeedBase">
-    <defName>SD_Chemical_DwarvenDrink</defName>
+    <defName>ISA_Chemical_DwarvenDrink</defName>
     <needClass>Need_Chemical</needClass>
     <label>dwarven brews</label>
     <description>Because of an addiction to dwarven alcohols, this person needs to regularly consume them to avoid withdrawal symptoms.</description>
@@ -29,7 +29,7 @@
   </NeedDef>
 
   <HediffDef ParentName="DrugToleranceBase">
-    <defName>SD_DwarvenBrewTolerance</defName>
+    <defName>ISA_DwarvenBrewTolerance</defName>
     <label>dwarven brew tolerance</label>
     <description>A built-up tolerance to all dwarven alcohols. The more severe this tolerance is, the more it takes to get the same effect.</description>
     <comps>
@@ -37,13 +37,13 @@
         <severityPerDay>-0.016</severityPerDay>
       </li>
       <li Class="HediffCompProperties_DrugEffectFactor">
-        <chemical>SD_DwarvenDrink</chemical>
+        <chemical>ISA_DwarvenDrink</chemical>
       </li>
     </comps>
   </HediffDef>
 
   <HediffDef ParentName="AddictionBase">
-    <defName>SD_DwarvenBrewAddiction</defName>
+    <defName>ISA_DwarvenBrewAddiction</defName>
     <label>dwarven brew addiction</label>
     <description>A chemical addiction to various dwarven brews. Their long-term presence has caused neurological adaptations at the cellular level, so the brain can no longer function properly without the drug.
 \nWithout regular doses, withdrawal symptoms will begin. However, extended abstinence will force the brain to adapt back to its normal state, resolving the addiction.</description>
@@ -82,9 +82,9 @@
   </HediffDef>
 
   <ThoughtDef>
-    <defName>SD_DwarvenBrewWithdrawalThought</defName>
+    <defName>ISA_DwarvenBrewWithdrawalThought</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
-    <hediff>SD_DwarvenBrewAddiction</hediff>
+    <hediff>ISA_DwarvenBrewAddiction</hediff>
     <validWhileDespawned>true</validWhileDespawned>
     <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
     <stages>
@@ -102,11 +102,11 @@
 <!-- Process Defs -->
 
 <ProcessorFramework.ProcessDef>
-  <defName>SD_ShroomaleBrewing</defName>
-  <thingDef>SD_ShroomAle</thingDef>
+  <defName>ISA_ShroomaleBrewing</defName>
+  <thingDef>ISA_ShroomAle</thingDef>
   <ingredientFilter>
     <thingDefs>
-      <li>SD_RawStoutcap</li>
+      <li>ISA_RawStoutcap</li>
     </thingDefs>
   </ingredientFilter>
   <processDays>15</processDays> <!-- in days, a day is 60,000 ticks -->
@@ -129,13 +129,13 @@
   <customLabel>Brewed</customLabel>
   <destroyChance>0.0</destroyChance>
   <bonusOutputs>
-    <SD_Fey>(0.1, 1)</SD_Fey>
+    <ISA_Fey>(0.1, 1)</ISA_Fey>
   </bonusOutputs>
 </ProcessorFramework.ProcessDef>
 
 <ProcessorFramework.ProcessDef>
-  <defName>SD_SweetwineBrewing</defName>
-  <thingDef>SD_Sweetwine</thingDef>
+  <defName>ISA_SweetwineBrewing</defName>
+  <thingDef>ISA_Sweetwine</thingDef>
   <ingredientFilter>
     <thingDefs>
       <li>ChunkGlimmer</li>
@@ -161,16 +161,16 @@
   <customLabel>added</customLabel>
   <destroyChance>0.0</destroyChance>
   <bonusOutputs>
-    <SD_Fey>(0.1, 1)</SD_Fey>
+    <ISA_Fey>(0.1, 1)</ISA_Fey>
   </bonusOutputs>
 </ProcessorFramework.ProcessDef>
 
 <ProcessorFramework.ProcessDef>
-  <defName>SD_ElixirBrewing</defName>
-  <thingDef>SD_RageElixir</thingDef>
+  <defName>ISA_ElixirBrewing</defName>
+  <thingDef>ISA_RageElixir</thingDef>
   <ingredientFilter>
     <thingDefs>
-      <li>SD_ElixirMush</li>
+      <li>ISA_ElixirMush</li>
     </thingDefs>
   </ingredientFilter>
   <processDays>15</processDays> <!-- in days, a day is 60,000 ticks -->
@@ -193,16 +193,16 @@
   <customLabel>added</customLabel>
   <destroyChance>0.0</destroyChance>
   <bonusOutputs>
-    <SD_Fey>(0.1, 1)</SD_Fey>
+    <ISA_Fey>(0.1, 1)</ISA_Fey>
   </bonusOutputs>
 </ProcessorFramework.ProcessDef>
 
 <ProcessorFramework.ProcessDef>
-  <defName>SD_LiquorBrewing</defName>
-  <thingDef>SD_ForgeLiquor</thingDef>
+  <defName>ISA_LiquorBrewing</defName>
+  <thingDef>ISA_ForgeLiquor</thingDef>
   <ingredientFilter>
     <thingDefs>
-      <li>SD_LiquorSmush</li>
+      <li>ISA_LiquorSmush</li>
     </thingDefs>
   </ingredientFilter>
   <processDays>25</processDays> <!-- in days, a day is 60,000 ticks -->
@@ -225,13 +225,13 @@
   <customLabel>added</customLabel>
   <destroyChance>0.0</destroyChance>
   <bonusOutputs>
-    <SD_Fey>(0.1, 1)</SD_Fey>
+    <ISA_Fey>(0.1, 1)</ISA_Fey>
   </bonusOutputs>
 </ProcessorFramework.ProcessDef>
 
 <ProcessorFramework.ProcessDef>
-  <defName>SD_MeadBrewing</defName>
-  <thingDef>SD_HiveMead</thingDef>
+  <defName>ISA_MeadBrewing</defName>
+  <thingDef>ISA_HiveMead</thingDef>
   <ingredientFilter>
     <thingDefs>
       <li>InsectJelly</li>
@@ -257,14 +257,14 @@
   <customLabel>added</customLabel>
   <destroyChance>0.0</destroyChance>
   <bonusOutputs>
-    <SD_Fey>(0.1, 1)</SD_Fey>
+    <ISA_Fey>(0.1, 1)</ISA_Fey>
     <Filth_BloodInsect>(1, 1)</Filth_BloodInsect>
   </bonusOutputs>
 </ProcessorFramework.ProcessDef>
 
 
 <!-- <ThingDef ParentName="BuildingBase">
-    <defName>SD_ShroomBrewKettle</defName>
+    <defName>ISA_ShroomBrewKettle</defName>
     <label>brewing kettle</label>
     <description>A rustic brew kettle used to brew shroom ale.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
@@ -317,7 +317,7 @@
     <barScale>(1.2, 1.2)</barScale>
     <colorCoded>true</colorCoded>
     <processes>
-      <li>SD_ShroomaleBrewing</li>
+      <li>ISA_ShroomaleBrewing</li>
     </processes>
   </li>
   </comps>
@@ -342,7 +342,7 @@
 -->
 
 <ThingDef ParentName="BuildingBase">
-  <defName>SD_ShroomAleBarrel</defName>
+  <defName>ISA_ShroomAleBarrel</defName>
   <label>dwarven cask</label>
   <description>A rustic sealed keg used to brew various stoneborn alcohols.</description>
   <drawerType>MapMeshAndRealTime</drawerType>
@@ -386,11 +386,11 @@
   <barScale>(0.3, 6)</barScale>
   <colorCoded>true</colorCoded>
   <processes>
-    <li>SD_ShroomaleBrewing</li>
-    <li>SD_SweetwineBrewing</li>
-    <li>SD_ElixirBrewing</li>
-    <li>SD_LiquorBrewing</li>
-    <li>SD_MeadBrewing</li>
+    <li>ISA_ShroomaleBrewing</li>
+    <li>ISA_SweetwineBrewing</li>
+    <li>ISA_ElixirBrewing</li>
+    <li>ISA_LiquorBrewing</li>
+    <li>ISA_MeadBrewing</li>
   </processes>
 </li>
 </comps>
@@ -405,7 +405,7 @@
     <destroySound>BuildingDestroyed_Wood_Small</destroySound>
   </building>
   <researchPrerequisites>
-   <li>SD_DwarvenBrewing</li>
+   <li>ISA_DwarvenBrewing</li>
   </researchPrerequisites>
   <thingCategories>
     <li>BuildingsProduction</li>
