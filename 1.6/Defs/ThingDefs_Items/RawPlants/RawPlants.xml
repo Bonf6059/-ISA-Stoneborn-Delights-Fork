@@ -4,7 +4,7 @@
   <!-- Stoutcap -->
   
   <ThingDef ParentName="RoughPlantBase">
-    <defName>SD_RawStoutcap</defName>
+    <defName>ISA_RawStoutcap</defName>
     <label>stoutcap</label>
     <description>Raw stoutcap. A flavoring and preserving agent that is necessary for making shroom ale.</description>
     <possessionCount>10</possessionCount>
@@ -32,7 +32,7 @@
   <!-- Bladeroot -->
   
   <ThingDef ParentName="RoughPlantBase">
-    <defName>SD_RawBladeroot</defName>
+    <defName>ISA_RawBladeroot</defName>
     <label>bladeroot</label>
     <description>Raw bladeroot. A flavoring and preserving agent that is necessary for making shroom ale.</description>
     <possessionCount>10</possessionCount>
@@ -60,7 +60,7 @@
     <!-- Bull's Horns -->
   
   <ThingDef ParentName="RoughPlantBase">
-    <defName>SD_RawBullHorns</defName>
+    <defName>ISA_RawBullHorns</defName>
     <label>bull's horns</label>
     <description>Raw bull's horns. A spicy and starchy vegetable agent that is used in certain stoneborn brewing recipes.</description>
     <possessionCount>10</possessionCount>
