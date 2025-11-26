@@ -2,14 +2,14 @@
 <Defs>
 
   <ThingDef ParentName="MakeableDrugBase">
-    <defName>SD_BladerootCigar</defName>
+    <defName>ISA_BladerootCigar</defName>
     <label>bladeroot cigar</label>
     <description>Bladeroot leaves rolled up into tight cigars. Despite its delterious appearace, many prominent stoneborn athletes dope themselves up with a few long draws to improve their kinesthetic capabilities.\n\It is a common sight to see stoneborn aegisbreakers puffing on a bladeroot cigar while wildly swinging their warhammers through enemy lines.</description>
     <possessionCount>5</possessionCount>
     <descriptionHyperlinks>
-      <HediffDef>SD_BladerootHigh</HediffDef>
-      <HediffDef>SD_BladerootTolerance</HediffDef>
-      <HediffDef>SD_BladerootAddiction</HediffDef>
+      <HediffDef>ISA_BladerootHigh</HediffDef>
+      <HediffDef>ISA_BladerootTolerance</HediffDef>
+      <HediffDef>ISA_BladerootAddiction</HediffDef>
       <HediffDef>Carcinoma</HediffDef>
       <HediffDef>Asthma</HediffDef>
     </descriptionHyperlinks>
@@ -60,12 +60,12 @@
       <useEatingSpeedStat>false</useEatingSpeedStat>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>SD_BladerootHigh</hediffDef>
+          <hediffDef>ISA_BladerootHigh</hediffDef>
           <severity>0.5</severity>
-          <toleranceChemical>SD_Bladeroot</toleranceChemical>
+          <toleranceChemical>ISA_Bladeroot</toleranceChemical>
         </li>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>SD_BladerootTolerance</hediffDef>
+          <hediffDef>ISA_BladerootTolerance</hediffDef>
           <severity>0.030</severity>
           <divideByBodySize>true</divideByBodySize>
           <multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
@@ -73,7 +73,7 @@
       </outcomeDoers>
     </ingestible>
     <recipeMaker>
-      <researchPrerequisite>SD_DwarvenDrugPlants</researchPrerequisite>
+      <researchPrerequisite>ISA_DwarvenDrugPlants</researchPrerequisite>
       <recipeUsers>
         <li>CraftingSpot</li>
         <li>DrugLab</li>
@@ -82,11 +82,11 @@
       <workSkill>Cooking</workSkill>
     </recipeMaker>
     <costList>
-      <SD_RawBladeroot>4</SD_RawBladeroot>
+      <ISA_RawBladeroot>4</ISA_RawBladeroot>
     </costList>
     <comps>
       <li Class="CompProperties_Drug">
-        <chemical>SD_Bladeroot</chemical>
+        <chemical>ISA_Bladeroot</chemical>
         <addictiveness>0.030</addictiveness>
         <minToleranceToAddict>0.20</minToleranceToAddict>
         <existingAddictionSeverityOffset>0.06</existingAddictionSeverityOffset>
