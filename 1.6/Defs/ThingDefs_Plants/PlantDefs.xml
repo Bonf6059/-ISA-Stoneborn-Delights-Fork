@@ -52,7 +52,7 @@
     <description>Raw stoutcap. A flavoring and preserving agent that is necessary for making shroom ale.</description>
     <possessionCount>10</possessionCount>
     <graphicData>
-      <texPath>Things/RawStoutcap</texPath>
+      <texPath>Things/Items/Resources/RawPlants/RawStoutcap</texPath>
     </graphicData>
     <statBases>
       <MarketValue>1.1</MarketValue>
@@ -123,7 +123,7 @@
     <description>Raw bladeroot. A flavoring and preserving agent that is necessary for making shroom ale.</description>
     <possessionCount>10</possessionCount>
     <graphicData>
-      <texPath>Things/RawBladeroot</texPath>
+      <texPath>Things/Items/Resources/RawPlants/RawBladeroot</texPath>
     </graphicData>
     <statBases>
       <MarketValue>1.1</MarketValue>
@@ -194,7 +194,7 @@
     <description>Raw bull's horns. A spicy and starchy vegetable agent that is used in certain stoneborn brewing recipes.</description>
     <possessionCount>10</possessionCount>
     <graphicData>
-      <texPath>Things/RawBullHorns</texPath>
+      <texPath>Things/Items/Resources/RawPlants/RawBullHorns</texPath>
     </graphicData>
     <statBases>
       <MarketValue>1.1</MarketValue>
