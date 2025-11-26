@@ -15,7 +15,7 @@
     </descriptionHyperlinks>
     <possessionCount>6</possessionCount>
     <graphicData>
-      <texPath>Things/ShroomAle</texPath>
+      <texPath>Things/Items/Drugs/ShroomAle</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <equippedAngleOffset>-150</equippedAngleOffset>
