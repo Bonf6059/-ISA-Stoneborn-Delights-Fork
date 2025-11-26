@@ -10,7 +10,7 @@
           <HediffDef>ISA_AlkahestAddiction</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
-          <texPath>Things/Alkahest</texPath>
+          <texPath>Things/Items/Drugs/Alkahest</texPath>
           <graphicClass>Graphic_StackCount</graphicClass>
           <drawSize>0.95</drawSize>
         </graphicData>
