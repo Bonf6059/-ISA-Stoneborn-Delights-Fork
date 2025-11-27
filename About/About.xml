@@ -5,6 +5,7 @@
 	<supportedVersions>
 		<li>1.6</li>
 	</supportedVersions>
+	<modIconPath IgnoreIfNoMatchingField="True">UI/ISA_StonebornDelightsLogo</modIconPath>
 	<modDependencies>
 		<li>
 			<packageId>det.stoneborn</packageId>
