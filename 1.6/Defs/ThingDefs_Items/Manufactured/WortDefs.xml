@@ -6,7 +6,7 @@
     <label>elixir mush</label>
     <description>Un-fermented elixir, with a very pungent odor. This substance needs to ferment in a fermenting barrel before it becomes drinkable beer.</description>
     <graphicData>
-      <texPath>Things/ElixirMush</texPath>
+      <texPath>Things/Items/Manufactured/Wort/ElixirMush</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <healthAffectsPrice>false</healthAffectsPrice>
@@ -51,7 +51,7 @@
     <label>liquor smush</label>
     <description>Un-fermented liquor, with a strong and spicy odor. This substance needs to ferment in a fermenting barrel before it becomes drinkable beer.</description>
     <graphicData>
-      <texPath>Things/LiquorSmush</texPath>
+      <texPath>Things/Items/Manufactured/Wort/LiquorSmush</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <healthAffectsPrice>false</healthAffectsPrice>
