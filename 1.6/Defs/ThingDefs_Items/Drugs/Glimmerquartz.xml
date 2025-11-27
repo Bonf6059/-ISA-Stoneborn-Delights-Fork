@@ -10,7 +10,7 @@
           <HediffDef>ISA_GlimmerAddiction</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
-          <texPath>Things/Glimmerquartz</texPath>
+          <texPath>Things/Items/Drugs/Glimmerquartz</texPath>
           <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <rotatable>false</rotatable>
