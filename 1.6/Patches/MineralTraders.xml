@@ -8,13 +8,15 @@
     <operations>
       <!-- Add new caravan -->      <!-- Thank you Criz#2714 for the help with this patch -->
 
-      <li Class="PatchOperationAdd">
+ <!-- Stoneborn faction uses OutlanderRoughBase as a base; the trade caravan is added by ISA-RandomPatches -->
+     
+<!--      <li Class="PatchOperationAdd">
         <xpath>/Defs/FactionDef[defName="OutlanderRoughStoneborn"]/caravanTraderKinds</xpath>
         <value>
           <li>ISA_Caravan_Minerals</li>
           <li MayRequire="ISA.Medieval">ISA_Caravan_Mythological</li>
         </value>
-      </li>
+      </li> -->
 
 <!-- Addons to the stock generator  -->
 
