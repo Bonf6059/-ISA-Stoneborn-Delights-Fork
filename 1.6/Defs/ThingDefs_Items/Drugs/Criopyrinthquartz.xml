@@ -42,18 +42,17 @@
             <li Class="IngestionOutcomeDoer_GiveHediff">
               <hediffDef>ISA_CriopyrinthHigh</hediffDef>
               <severity>1.0</severity>
-              <toleranceChemical>ISA_Criopyrinth</toleranceChemical>
+  <!--            <toleranceChemical>ISA_Criopyrinth</toleranceChemical>    -->      <!-- Sono disattivati perchè questa non crea dipendenza -->
             </li>
-            <li Class="IngestionOutcomeDoer_OffsetNeed">
+ <!--           <li Class="IngestionOutcomeDoer_OffsetNeed">
               <need>Food</need>
               <offset>0.2</offset>
               <toleranceChemical>ISA_Criopyrinth</toleranceChemical>
-            </li>
+            </li>    -->
           </outcomeDoers>
           </ingestible>
         <comps>
           <li Class="CompProperties_Drug">
-              <!-- Sono disattivati perchè questa non crea dipendenza -->
       <!--      <chemical>ISA_Criopyrinth</chemical>
             <addictiveness>0.025</addictiveness>
             <existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
