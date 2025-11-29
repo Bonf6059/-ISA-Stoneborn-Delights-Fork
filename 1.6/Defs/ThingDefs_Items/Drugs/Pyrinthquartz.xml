@@ -42,7 +42,7 @@
             <li Class="IngestionOutcomeDoer_GiveHediff">
               <hediffDef>ISA_PyrinthHigh</hediffDef>
               <severity>1.0</severity>
-       <!--       <toleranceChemical>ISA_Pyrinth</toleranceChemical>    -->
+       <!--       <toleranceChemical>ISA_Pyrinth</toleranceChemical>    -->              <!-- Sono disattivati perchè questa non crea dipendenza -->
             </li>
      <!--       <li Class="IngestionOutcomeDoer_OffsetNeed">
               <need>Food</need>
@@ -53,7 +53,6 @@
           </ingestible>
         <comps>
           <li Class="CompProperties_Drug">
-              <!-- Sono disattivati perchè questa non crea dipendenza -->
         <!--    <chemical>ISA_Pyrinth</chemical>
             <addictiveness>0.025</addictiveness>
             <existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
