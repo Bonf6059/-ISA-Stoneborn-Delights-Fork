@@ -38,7 +38,7 @@
           </stages>
       </HediffDef>
       
-      <ThoughtDef>
+      <ThoughtDef MayRequire="det.epochspyrinth">
         <defName>ISA_PyrinthHighThought</defName>
         <workerClass>ThoughtWorker_Hediff</workerClass>
         <hediff>ISA_PyrinthHigh</hediff>
