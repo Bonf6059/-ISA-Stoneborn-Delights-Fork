@@ -23,17 +23,9 @@
         </comps>
           <stages>
             <li>
-              <statFactors>
-                <RestFallRateFactor>0.95</RestFallRateFactor>
-                <ComfyTemperatureMin>20</ComfyTemperatureMin>
-                <!-- <ComfyTemperatureMax>40</ComfyTemperatureMax>  -->
-              </statFactors>
-              <capMods>
-                <li>
-                  <capacity>Consciousness</capacity>
-                  <offset>0.10</offset>
-                </li>
-              </capMods>
+                  <statOffsets>
+                        <ComfyTemperatureMin>20</ComfyTemperatureMin>
+                  </statOffsets>		
             </li>
           </stages>
       </HediffDef>
