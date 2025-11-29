@@ -53,14 +53,15 @@
           </ingestible>
         <comps>
           <li Class="CompProperties_Drug">
-            <chemical>ISA_Criopyrinth</chemical>
+              <!-- Sono disattivati perchè questa non crea dipendenza -->
+      <!--      <chemical>ISA_Criopyrinth</chemical>
             <addictiveness>0.025</addictiveness>
             <existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
             <needLevelOffset>0.9</needLevelOffset>
-            <isCombatEnhancingDrug>false</isCombatEnhancingDrug>
+            <isCombatEnhancingDrug>false</isCombatEnhancingDrug>    -->
             <listOrder>200</listOrder>
             <overdoseSeverityOffset>0.09~0.25</overdoseSeverityOffset>
-            <largeOverdoseChance>0.002</largeOverdoseChance>
+        <!--    <largeOverdoseChance>0.002</largeOverdoseChance>    -->
           </li>
         </comps>
       </ThingDef>
