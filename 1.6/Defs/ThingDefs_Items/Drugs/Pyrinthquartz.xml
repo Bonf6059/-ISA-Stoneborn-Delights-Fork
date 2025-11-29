@@ -42,13 +42,13 @@
             <li Class="IngestionOutcomeDoer_GiveHediff">
               <hediffDef>ISA_PyrinthHigh</hediffDef>
               <severity>1.0</severity>
-              <toleranceChemical>ISA_Pyrinth</toleranceChemical>
+       <!--       <toleranceChemical>ISA_Pyrinth</toleranceChemical>    -->
             </li>
-            <li Class="IngestionOutcomeDoer_OffsetNeed">
+     <!--       <li Class="IngestionOutcomeDoer_OffsetNeed">
               <need>Food</need>
               <offset>0.2</offset>
               <toleranceChemical>ISA_Pyrinth</toleranceChemical>
-            </li>
+            </li>    -->
           </outcomeDoers>
           </ingestible>
         <comps>
