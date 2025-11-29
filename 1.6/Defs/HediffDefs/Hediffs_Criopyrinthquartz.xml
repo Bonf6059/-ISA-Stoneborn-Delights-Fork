@@ -3,7 +3,7 @@
 
       <HediffDef MayRequire="ISA.Medieval">
         <defName>ISA_CriopyrinthHigh</defName>
-        <hediffClass>Hediff_High</hediffClass>
+        <hediffClass>HediffWithComps</hediffClass>
         <label>criopyrinth rush</label>
         <labelNoun>a criopyrinth high</labelNoun>
         <description>criopyrinthquartz in the bloodstream. It increases the comfortable temperature.</description>
