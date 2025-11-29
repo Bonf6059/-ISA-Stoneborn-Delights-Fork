@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-      <HediffDef>
+      <HediffDef MayRequire="det.epochspyrinth">
         <defName>ISA_PyrinthHigh</defName>
         <hediffClass>Hediff_High</hediffClass>
         <label>pyrinth rush</label>
