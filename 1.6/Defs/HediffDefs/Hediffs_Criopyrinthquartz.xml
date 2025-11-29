@@ -23,10 +23,13 @@
         </comps>
           <stages>
             <li>
+			<statOffsets>
+			      <ComfyTemperatureMax>20</ComfyTemperatureMax>
+		      </statOffsets>		
+		</li>
+            <li>
               <statFactors>
                 <RestFallRateFactor>0.95</RestFallRateFactor>
-            <!--     <ComfyTemperatureMin>-10</ComfyTemperatureMin>  -->
-                <ComfyTemperatureMax>20</ComfyTemperatureMax>
               </statFactors>
               <capMods>
                 <li>
