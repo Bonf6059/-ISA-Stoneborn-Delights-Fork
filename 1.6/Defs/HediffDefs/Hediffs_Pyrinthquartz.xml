@@ -24,7 +24,7 @@
           <stages>
             <li>
                   <statOffsets>
-                        <ComfyTemperatureMin>20</ComfyTemperatureMin>
+                        <ComfyTemperatureMin>-20</ComfyTemperatureMin>
                   </statOffsets>		
             </li>
           </stages>
