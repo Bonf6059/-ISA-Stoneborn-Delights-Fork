@@ -38,7 +38,7 @@
           </stages>
       </HediffDef>
       
-      <ThoughtDef>
+      <ThoughtDef MayRequire="ISA.Medieval">
         <defName>ISA_CriopyrinthHighThought</defName>
         <workerClass>ThoughtWorker_Hediff</workerClass>
         <hediff>ISA_CriopyrinthHigh</hediff>
