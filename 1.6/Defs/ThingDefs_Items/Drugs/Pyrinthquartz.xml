@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <ThingDef ParentName="DrugBase">
+    <ThingDef MayRequire="det.epochspyrinth" ParentName="DrugBase">
         <defName>ISA_Pyrinthquartz</defName>
         <label>pyrinthquartz</label>
         <description>A small crystal of pyrinth, cut from a chunk to a more edible size. The chemical makeup of pyrinth makes it a an easy way to stay warm even in the coldest weather that gives anyone who consumes it an feeling of warmth, so much so that some people like to undress when taking it. It is also a very pleasant spice, making it useful for certain stoneborn recipes. Entire stoneborn mining operations are dedicated to extracting these spicy crystals for consumption and processing.</description>
