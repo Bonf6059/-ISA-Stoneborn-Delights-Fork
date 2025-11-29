@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-      <HediffDef>
+      <HediffDef MayRequire="ISA.Medieval">
         <defName>ISA_CriopyrinthHigh</defName>
         <hediffClass>Hediff_High</hediffClass>
         <label>criopyrinth rush</label>
