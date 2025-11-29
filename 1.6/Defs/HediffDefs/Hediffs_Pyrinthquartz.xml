@@ -3,7 +3,7 @@
 
       <HediffDef MayRequire="det.epochspyrinth">
         <defName>ISA_PyrinthHigh</defName>
-        <hediffClass>Hediff_High</hediffClass>
+        <hediffClass>HediffWithComps</hediffClass>
         <label>pyrinth rush</label>
         <labelNoun>a pyrinth high</labelNoun>
         <description>pyrinthquartz in the bloodstream. It increases the comfortable temperature.</description>
