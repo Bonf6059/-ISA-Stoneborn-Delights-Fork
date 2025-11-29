@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <ThingDef ParentName="DrugBase">
+    <ThingDef MayRequire="ISA.Medieval" ParentName="DrugBase">
         <defName>ISA_Criopyrinthquartz</defName>
         <label>criopyrinthquartz</label>
         <description>A small crystal of criopyrinth, cut from a chunk to a more edible size. The chemical makeup of criopyrinth makes it a an easy way to stay cool even in the hottest weather that gives anyone who consumes it a cool feeling, so much so that some people like to dress with heavier clothes when taking it. It is also a very pleasant spice, making it useful for certain stoneborn recipes. Entire stoneborn mining operations are dedicated to extracting these mouth chilling crystals for consumption and processing.</description>
