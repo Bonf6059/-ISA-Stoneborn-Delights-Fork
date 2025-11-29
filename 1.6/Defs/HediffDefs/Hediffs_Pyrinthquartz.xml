@@ -13,7 +13,7 @@
         <isBad>false</isBad>
         <comps>
           <li Class="HediffCompProperties_Effecter">
-            <stateEffecter>ISA_PyrinthSparkingEffectSmall</stateEffecter>
+            <stateEffecter>DV_PyrinthSparkingEffectSmall</stateEffecter>
             <severityIndices>0~1</severityIndices>
           </li>
           <li Class="HediffCompProperties_SeverityPerDay">
