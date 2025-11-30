@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <ThingDef ParentName="BuildingNaturalBase">
+    <ThingDef ParentName="BuildingBase">
         <defName>ISA_ArtificialHive</defName>
         <label>insectiary</label>
         <thingClass>Building</thingClass>
