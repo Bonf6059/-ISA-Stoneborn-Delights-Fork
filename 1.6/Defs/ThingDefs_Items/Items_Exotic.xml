@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>ISA_QueenMaggot</defName>
+    <label>maggot queen</label>
+    <description>The future queen of an insectoid hive. If left in the wild it would grow and build its own hive. Can be used to make an insectiary.</description>
+    <possessionCount>1</possessionCount>
+	
+    <graphicData>
+      <texPath>Things/DeathstingerLarvae</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	
+    <statBases>
+      <MarketValue>350</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.9</Mass>
+      <Flammability>1</Flammability>
+      <DeteriorationRate>2</DeteriorationRate>
+    </statBases>
+	
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>5</stackLimit>
+	
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>AnimalPart</li>
+    </thingSetMakerTags>
+  </ThingDef>
+
+
+</Defs>
