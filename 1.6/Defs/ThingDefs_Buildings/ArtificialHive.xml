@@ -15,6 +15,7 @@
         <altitudeLayer>Building</altitudeLayer>
         <rotatable>false</rotatable>
         <fillPercent>0.5</fillPercent>
+        <Mass>12</Mass>
         <minifiedDef>MinifiedThing</minifiedDef>
         <stuffCategories>
           <li>Woody</li>
@@ -62,6 +63,10 @@
             <spawnRadius>5</spawnRadius>
           </li>
         </comps>
+        <designationCategory>Production</designationCategory>
+        <thingCategories>
+            <li>BuildingsProduction</li>
+        </thingCategories>
       </ThingDef>
 
 </Defs>
