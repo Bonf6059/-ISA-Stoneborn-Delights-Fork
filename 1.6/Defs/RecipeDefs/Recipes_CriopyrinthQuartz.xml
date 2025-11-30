@@ -6,8 +6,10 @@
         <label>cut up criopyrinth shards</label>
         <description>Cuts criopyrinth shards into bite-size pieces.</description>
         <recipeUsers>
-          <li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_AlchemicalWorkbench</li>
-			    <li>DrugLab</li>
+          	<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_AlchemicalWorkbench</li>
+			<li>DrugLab</li>
+			<li>CraftingSpot</li>
+			<li>TableStonecutter</li>
         </recipeUsers>
         <ingredients>
           <li>
