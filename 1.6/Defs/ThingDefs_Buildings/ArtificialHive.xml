@@ -2,12 +2,12 @@
 <Defs>
 
     <ThingDef ParentName="BuildingNaturalBase">
-        <defName>SC_ArtificialHive</defName>
+        <defName>ISA_ArtificialHive</defName>
         <label>insectiary</label>
         <thingClass>Building</thingClass>
         <description>An artificial hive, with a queen maggot inside. It slowly and constantly produces insect jelly, and spawns bothersome megascarabs.</description>
         <graphicData>
-          <texPath>Things/Buildings/ArtificialHive</texPath>
+          <texPath>Things/Buildings/ArtificialHive/ArtificialHive</texPath>
           <graphicClass>Graphic_Single</graphicClass>
           <drawSize>1.6</drawSize>
         </graphicData>
@@ -20,6 +20,9 @@
           <li>Woody</li>
         </stuffCategories>
         <costStuffCount>50</costStuffCount>
+        <costList>
+          <ISA_QueenMaggot>1</ISA_QueenMaggot>
+        </costList>
         <statBases>
           <MaxHitPoints>130</MaxHitPoints>
           <Flammability>1.0</Flammability>
