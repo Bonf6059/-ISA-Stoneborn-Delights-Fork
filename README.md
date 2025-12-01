@@ -5,7 +5,7 @@ Enrich your stoneborne experience with a new set of recreational and useful drug
 
 # Ideas for possible next updates
 
-- 
+- Petrified wood, found in the mountains like a mineral but can be used as fuel, very beautiful
 
 # Old updates
 
