@@ -12,4 +12,4 @@ Enrich your stoneborne experience with a new set of recreational and useful drug
 30/11/2025
 
 - Added new drugs: Criopyrinthquartz and Pyrinthquartz
-- 
+- Fixed genes textures
