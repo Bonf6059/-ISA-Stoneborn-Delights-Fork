@@ -3,7 +3,7 @@
 
 <!-- Trasformalo in un processore come il death stinger apiary e aggiungilo alla lista del mercanet dei minerali-->
     
-    <ThingDef ParentName="BuildingBase">
+    <ThingDef ParentName="BuildingNaturalBase">
         <defName>ISA_ArtificialHive</defName>
         <label>insectiary</label>
         <thingClass>Building</thingClass>
@@ -17,7 +17,6 @@
         <altitudeLayer>Building</altitudeLayer>
         <rotatable>false</rotatable>
         <fillPercent>0.5</fillPercent>
-        <Mass>12</Mass>
         <minifiedDef>MinifiedThing</minifiedDef>
         <stuffCategories>
           <li>Woody</li>
@@ -27,8 +26,9 @@
           <ISA_QueenMaggot>1</ISA_QueenMaggot>
         </costList>
         <statBases>
-          <MaxHitPoints>130</MaxHitPoints>
-          <Flammability>1.0</Flammability>
+            <MaxHitPoints>130</MaxHitPoints>
+            <Flammability>1.0</Flammability>
+            <Mass>12</Mass>
         </statBases>
         <pathCost>42</pathCost>
         <blockWind>true</blockWind>
