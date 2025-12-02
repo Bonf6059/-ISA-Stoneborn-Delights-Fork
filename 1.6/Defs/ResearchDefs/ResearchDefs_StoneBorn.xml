@@ -37,7 +37,7 @@
     <tab>StonebornTab</tab>
     <description>Create processed mixes of drugs and unique brews, utilizing various chemicals and minerals.</description>
     <baseCost>1200</baseCost>
-    <techLevel>Industrial</techLevel>
+    <techLevel>Medieval</techLevel>
     <researchViewX>1.00</researchViewX>
     <researchViewY>3.10</researchViewY>
   </ResearchProjectDef>
