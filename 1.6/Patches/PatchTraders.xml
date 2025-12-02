@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-<!--========== TRADERS ==========-->
+<!--========== MINERAL TRADERS ==========-->
 
 <Operation MayRequire="ISA.RandomPatches" Class="PatchOperationSequence">
  <!-- <success>Always</success>  -->
@@ -34,18 +34,12 @@
             <countRange>-5~15</countRange>
           </li>
 
-        </value>
-      </li>
-
-     <li MayRequire="ISA.Medieval" Class="StockGenerator_SingleDef">
+          <li MayRequire="ISA.Medieval" Class="StockGenerator_SingleDef">
             <thingDef>ISA_Criopyrinthquartz</thingDef>
             <countRange>-5~15</countRange>
           </li>
 
-        </value>
-      </li>
-
-     <li MayRequire="det.epochspyrinth" Class="StockGenerator_SingleDef">
+          <li MayRequire="det.epochspyrinth" Class="StockGenerator_SingleDef">
             <thingDef>ISA_Pyrinthquartz</thingDef>
             <countRange>-5~15</countRange>
           </li>
@@ -53,6 +47,8 @@
         </value>
       </li>
 
+<!--========== ORBITAL MINERAL TRADERS ==========-->
+     
       <li Class="PatchOperationAdd">
         <xpath>/Defs/TraderKindDef[defName="ISA_Orbital_Minerals"]/stockGenerators</xpath>
         <value>
@@ -67,20 +63,40 @@
             <countRange>-5~35</countRange>
           </li>
 
-        </value>
-      </li>
-
           <li MayRequire="ISA.Medieval" Class="StockGenerator_SingleDef">
             <thingDef>ISA_Criopyrinthquartz</thingDef>
+            <countRange>-5~35</countRange>
+          </li>
+          <li MayRequire="det.epochspyrinth" Class="StockGenerator_SingleDef">
+            <thingDef>ISA_Pyrinthquartz</thingDef>
             <countRange>-5~35</countRange>
           </li>
 
         </value>
       </li>
 
-     <li MayRequire="det.epochspyrinth" Class="StockGenerator_SingleDef">
-            <thingDef>ISA_Pyrinthquartz</thingDef>
-            <countRange>-5~35</countRange>
+  </operations>
+</Operation>
+
+ <!--========== APICULTURAL TRADERS ==========-->
+
+<Operation MayRequire="ISA.hornetkeeping" Class="PatchOperationSequence">
+ <!-- <success>Always</success>  -->
+    <operations>
+<!-- Addons to the stock generator  -->
+
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/TraderKindDef[defName="ISA_Caravan_Apiculture"]/stockGenerators</xpath>
+        <value>
+
+          <li Class="StockGenerator_SingleDef">
+            <thingDef>ISA_ArtificialHive</thingDef>
+            <countRange>-5~3</countRange>
+          </li>
+
+          <li Class="StockGenerator_SingleDef">
+            <thingDef>ISA_QueenMaggot</thingDef>
+            <countRange>-5~3</countRange>
           </li>
 
         </value>
