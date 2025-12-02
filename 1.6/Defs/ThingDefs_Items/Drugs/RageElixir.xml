@@ -22,7 +22,7 @@
           <Mass>0.1</Mass>
         </statBases>
         <stackLimit>25</stackLimit>
-        <techLevel>Industrial</techLevel>
+        <techLevel>Medieval</techLevel>
         <ingestible>
           <joyKind>Chemical</joyKind>
           <joy>0.15</joy>
