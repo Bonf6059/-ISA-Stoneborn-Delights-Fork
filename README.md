@@ -14,6 +14,8 @@ Enrich your stoneborne experience with a new set of recreational and useful drug
 - Added Criopyrinthquartz and Pyrinthquartz to minerals trader if ISA.Patches is active
 - Added Artificial Hive and the maggot queen
 - Added Artificial Hive and the maggot queen to apicultural traders if ISA.hornetkeeping is active
+- Changed techlevel for various drugs from industrial to medieval and researches
+- Locked some drugs behind stonecutting research
 
 30/11/2025
 
