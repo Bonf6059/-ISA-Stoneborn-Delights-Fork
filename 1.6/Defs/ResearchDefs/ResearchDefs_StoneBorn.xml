@@ -41,5 +41,20 @@
     <researchViewX>1.00</researchViewX>
     <researchViewY>3.10</researchViewY>
   </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>ISA_DwarvenHiveKeeping</defName>
+    <label>dwarven hive keeping</label>
+    <tab>StonebornTab</tab>
+    <description>Create an artificial hive to farm insect jelly, it will occasionally attract wild insects.</description>
+    <baseCost>1200</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>0.10</researchViewY>
+    <prerequisites>
+      <li>ComplexFurniture</li>
+      <li MayRequire="ISA.hornetkeeping">ISA_Hornetkeeping</li>
+    </prerequisites>
+  </ResearchProjectDef>
   
 </Defs>
