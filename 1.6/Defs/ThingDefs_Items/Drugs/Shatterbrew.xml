@@ -24,7 +24,7 @@
           <MaxHitPoints>120</MaxHitPoints>
         </statBases>
         <tickerType>Rare</tickerType>
-        <techLevel>Industrial</techLevel>
+        <techLevel>Medieval</techLevel>
 		<comps>
 			<li Class="VEF.Cooking.CompProperties_MaturingAlcohol">
 				<daysToRotStart>18</daysToRotStart>
