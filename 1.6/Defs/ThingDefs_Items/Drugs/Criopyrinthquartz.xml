@@ -63,6 +63,9 @@
         <!--    <largeOverdoseChance>0.002</largeOverdoseChance>    -->
           </li>
         </comps>
+       	<researchPrerequisites>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
       </ThingDef>
   
 </Defs>
