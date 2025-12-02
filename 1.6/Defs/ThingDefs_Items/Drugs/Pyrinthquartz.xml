@@ -21,7 +21,7 @@
         <deepCommonality>0.6</deepCommonality>
         <deepCountPerPortion>8</deepCountPerPortion>
         <deepLumpSizeRange>4~6</deepLumpSizeRange>
-        <techLevel>Industrial</techLevel>
+        <techLevel>Medieval</techLevel>
         <ingestible>
           <joyKind>Chemical</joyKind>
           <joy>0.70</joy>
