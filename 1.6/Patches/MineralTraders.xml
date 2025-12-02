@@ -37,7 +37,7 @@
         </value>
       </li>
 
-     <li Class="StockGenerator_SingleDef">
+     <li MayRequire="ISA.Medieval" Class="StockGenerator_SingleDef">
             <thingDef>ISA_Criopyrinthquartz</thingDef>
             <countRange>-5~15</countRange>
           </li>
@@ -45,7 +45,7 @@
         </value>
       </li>
 
-     <li Class="StockGenerator_SingleDef">
+     <li MayRequire="det.epochspyrinth" Class="StockGenerator_SingleDef">
             <thingDef>ISA_Pyrinthquartz</thingDef>
             <countRange>-5~15</countRange>
           </li>
