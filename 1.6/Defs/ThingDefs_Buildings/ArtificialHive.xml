@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-<!-- Trasformalo in un processore come il death stinger apiary e aggiungilo alla lista del mercanet dei minerali-->
     
     <ThingDef ParentName="BuildingBase">
         <defName>ISA_ArtificialHive</defName>
