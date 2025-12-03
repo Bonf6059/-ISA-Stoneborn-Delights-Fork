@@ -3,7 +3,7 @@
 
 <!-- Trasformalo in un processore come il death stinger apiary e aggiungilo alla lista del mercanet dei minerali-->
     
-    <ThingDef ParentName="BuildingNaturalBase">
+    <ThingDef ParentName="BuildingBase">
         <defName>ISA_ArtificialHive</defName>
         <label>insectiary</label>
         <thingClass>Building</thingClass>
@@ -38,14 +38,14 @@
           <InsectJelly>30</InsectJelly>
         </killedLeavings>
         <comps>
-          <li Class="CompProperties_SpawnerPawn">
+       <!--   <li Class="CompProperties_SpawnerPawn">
             <spawnablePawnKinds>
               <li>Megascarab</li>
             </spawnablePawnKinds>
             <spawnSound>Hive_Spawn</spawnSound>
             <initialPawnsPoints>20</initialPawnsPoints>
             <maxSpawnedPawnsPoints>300</maxSpawnedPawnsPoints>
-          </li>
+          </li>	-->
           <li Class="CompProperties_Spawner">
             <thingToSpawn>InsectJelly</thingToSpawn>
             <spawnCount>20</spawnCount>
@@ -69,9 +69,9 @@
         <thingCategories>
             <li>BuildingsProduction</li>
         </thingCategories>
-        <researchPrerequisites>
-            <li>ISA_DwarvenHiveKeeping</li>
-        </researchPrerequisites>
+  <researchPrerequisites>
+   <li>ISA_DwarvenHiveKeeping</li>
+  </researchPrerequisites>
       </ThingDef>
 
 </Defs>
