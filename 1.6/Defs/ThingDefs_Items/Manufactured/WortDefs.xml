@@ -22,21 +22,6 @@
       <Flammability>0.6</Flammability>
       <MaxHitPoints>60</MaxHitPoints>
     </statBases>
-    <costList>
-        <ISA_RawBullHorns>20</ISA_RawBullHorns>
-        <ISA_RawBladeroot>10</ISA_RawBladeroot>
-      </costList>
-    <recipeMaker>
-        <workSpeedStat>DrugCookingSpeed</workSpeedStat>
-        <workSkill>Cooking</workSkill>
-        <recipeUsers>
-            <li>Brewery</li>
-        </recipeUsers>
-        <effectWorking>Cook</effectWorking>
-        <soundWorking>Recipe_Brewing</soundWorking>
-        <workAmount>1200</workAmount>
-        <targetCountAdjustment>5</targetCountAdjustment>
-    </recipeMaker>
     <tickerType>Rare</tickerType>
     <comps>
       <li Class="CompProperties_Rottable">
