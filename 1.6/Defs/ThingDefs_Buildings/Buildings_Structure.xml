@@ -47,7 +47,7 @@
 			<enabled>false</enabled>
 		</damageData>
 		</graphicData>
-		<uiIconPath>Things/Building/Door/SlabDoor1x2/SlabDoor1x2_MenuIcon_south</uiIconPath>
+		<uiIconPath>Things/Buildings/Structures/SlabDoor/SlabDoorBig/SlabDoor1x2_MenuIcon_south</uiIconPath>
 		<useBlueprintGraphicAsGhost>true</useBlueprintGraphicAsGhost>
 		<size>(2, 1)</size>
 		<rotatable>true</rotatable>
