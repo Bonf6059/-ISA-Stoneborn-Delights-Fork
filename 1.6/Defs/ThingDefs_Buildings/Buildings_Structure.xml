@@ -65,12 +65,12 @@
 			<drawSize>(3,2)</drawSize>
 		</blueprintGraphicData>
 		<doorTopGraphic>
-			<texPath>Things/Buildings/Structures/SlabDoor/SlabDoorBig/RusticDoor1x2_Top</texPath>
+			<texPath>Things/Buildings/Structures/SlabDoor/SlabDoorBig/SlabDoor1x2_Top</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3, 2)</drawSize>
 		</doorTopGraphic>
 		<doorSupportGraphic>
-			<texPath>Things/Buildings/Structures/SlabDoor/SlabDoorBig/RusticDoor1x2_Support</texPath>
+			<texPath>Things/Buildings/Structures/SlabDoor/SlabDoorBig/SlabDoor1x2_Support</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3, 2)</drawSize>
 		</doorSupportGraphic>
