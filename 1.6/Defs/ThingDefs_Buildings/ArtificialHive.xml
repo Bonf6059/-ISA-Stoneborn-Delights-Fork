@@ -69,7 +69,9 @@
         <thingCategories>
             <li>BuildingsProduction</li>
         </thingCategories>
-        <researchPrerequisite>ISA_DwarvenHiveKeeping</researchPrerequisite>
+        <researchPrerequisites>
+            <li>ISA_DwarvenBrewing</li>
+        </researchPrerequisites>
       </ThingDef>
 
 </Defs>
