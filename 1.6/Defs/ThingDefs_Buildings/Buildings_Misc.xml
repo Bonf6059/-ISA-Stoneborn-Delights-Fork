@@ -110,7 +110,7 @@
   <graphicData>
     <drawSize>(4,4)</drawSize>
     <drawOffset>(0,0,0.6)</drawOffset>
-    <texPath>Things/Building/Ruins/Scrollshelf</texPath>
+    <texPath>Things/Buildings/Scrollshelf</texPath>
     <graphicClass>Graphic_Random</graphicClass>
     <shaderType>CutoutComplex</shaderType>
     <shadowData>
