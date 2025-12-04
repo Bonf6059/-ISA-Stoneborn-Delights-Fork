@@ -10,6 +10,9 @@ Enrich your stoneborne experience with a new set of recreational and useful drug
 
 # Old updates
 
+04/12/2025
+- Added Scroll Shelf
+
 02/12/2025
 - Added Criopyrinthquartz and Pyrinthquartz to minerals trader if ISA.Patches is active
 - Added Artificial Hive and the maggot queen
