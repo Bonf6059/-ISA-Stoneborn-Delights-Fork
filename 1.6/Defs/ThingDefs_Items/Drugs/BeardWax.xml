@@ -42,7 +42,7 @@
             </outcomeDoers>
         </ingestible>
 		<costList>
-          <Neutroamine>2</Neutroamine>
+          <ISA_RawStoutcap>20</ISA_RawStoutcap>
           <Steel>4</Steel>
         </costList>
         <recipeMaker>
