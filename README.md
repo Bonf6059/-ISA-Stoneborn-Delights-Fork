@@ -5,10 +5,12 @@ Enrich your stoneborne experience with a new set of recreational and useful drug
 
 # Ideas for possible next updates
 
-- Petrified wood, found in the mountains like a mineral but can be used as fuel, very beautiful or just add coal
 - Stoneborn-Faction-Expansion - WEAPONS MEELE; IDK
 
 # Old updates
+
+19/01/2026
+- Added Coal as a fuel source
 
 04/12/2025
 - Added Scroll Shelf
