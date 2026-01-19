@@ -40,6 +40,7 @@
     <fuelFilter>
       <thingDefs>
         <li>WoodLog</li>
+        <li>ISA_Coal</li>
       </thingDefs>
     </fuelFilter>
     <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
