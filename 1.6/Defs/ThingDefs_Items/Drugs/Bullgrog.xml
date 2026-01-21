@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef MayRequire="det.stonebornfaction" ParentName="DrugBase">
+  <ThingDef ParentName="DrugBase">
     <defName>ISA_Bullgrog</defName>
     <label>bullgrog</label>
     <description>An odd alcoholic beverage produced inside of the bodies of browbulls which is then secreted from their skin, it seems to either be a method of purging the body of dangerous chemicals or a unique way to protect themselves against predators, either way, it seems palatable atleast to the stoneborn, and when drunk it makes you feel quite unstoppable, and hungry.</description>
