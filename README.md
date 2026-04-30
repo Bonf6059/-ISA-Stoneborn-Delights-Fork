@@ -6,6 +6,7 @@ Enrich your stoneborne experience with a new set of recreational and useful drug
 # Ideas for possible next updates
 
 - Do something with the weapon textures in the folder
+- Add 2 potion active with ISA Medieval enabled called "Artisan dream" and 
 
 # Old updates
 
