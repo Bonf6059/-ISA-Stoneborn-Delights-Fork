@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SD_BeardWax"]/costList</xpath>
+		  <value>
+	    	<costList>
+          <SD_RawStoutcap>2</SD_RawStoutcap>
+          <Steel>4</Steel>
+        </costList>
+		  </value>
+	</Operation>
+</Patch>
