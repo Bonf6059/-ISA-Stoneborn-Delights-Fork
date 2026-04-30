@@ -13,6 +13,7 @@ Enrich your stoneborne experience with a new set of recreational and useful drug
 # Old updates
 
 30/04/2026
+- Reorganized the code, moved around patches and so on 
 - The original mod has been updated to 1.6 (current latest version) so I've deleted all the stuff coming from that mod
   and made patches for what I changed in my version of the mod, see below
 
