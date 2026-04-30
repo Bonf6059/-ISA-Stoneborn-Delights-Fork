@@ -1,21 +1,20 @@
 # -ISA-Stoneborn-Delights-Fork
 
-Update of the original mod from DetVisor with some addons to increase compatibility to my mod series [ISA]          
-Enrich your stoneborne experience with a new set of recreational and useful drugs!
+Patches for the original mod from DetVisor with some addons to increase compatibility to my mod series [ISA]          
+Enrich your stoneborne experience with a new set of recreational and useful drugs and more!
 
 # Ideas for possible next updates
 
-- Stoneborn-Faction-Expansion - WEAPONS MEELE; IDK
+-
 
 # Old updates
 
 30/04/2026
 - The original mod has been updated to 1.6 (current latest version) so I've deleted all the stuff coming from that mod
-  and made patches for what I edited in the first place, see below
+  and made patches for what I changed in my version of the mod, see below
 
       - Changed recipe for beard wax to 20 raw stout_cap+steel instead of neutroamine+steel
       - Changed techlevel of all drugs to medieval or lower
-  
 
 19/01/2026
 - Added Coal as a fuel source
