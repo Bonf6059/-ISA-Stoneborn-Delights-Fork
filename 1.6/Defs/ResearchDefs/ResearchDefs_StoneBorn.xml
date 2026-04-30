@@ -1,56 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ResearchTabDef>
-    <defName>StonebornTab</defName>
-    <label>Stoneborn</label>
-  </ResearchTabDef>
-
-  <ResearchProjectDef>
-    <defName>ISA_DwarvenDrugPlants</defName>
-    <label>underground herbs</label>
-    <tab>StonebornTab</tab>
-    <description>Plant the 3 main ingredients of all good stoneborn alcohols.</description>
-    <baseCost>1000</baseCost>
-    <techLevel>Neolithic</techLevel>
-    <researchViewX>0.00</researchViewX>
-    <researchViewY>2.75</researchViewY>
-  </ResearchProjectDef>
-
-  <ResearchProjectDef>
-    <defName>ISA_DwarvenBrewing</defName>
-    <label>dwarven fermentation</label>
-    <tab>StonebornTab</tab>
-    <description>Build the dwarven cask and discover all the secrets it contains.</description>
-    <baseCost>1400</baseCost>
-    <techLevel>Neolithic</techLevel>
-    <researchViewX>1.00</researchViewX>
-    <researchViewY>2.40</researchViewY>
-    <prerequisites>
-      <li>ISA_DwarvenDrugPlants</li>
-    </prerequisites>
-  </ResearchProjectDef>
-
-  <ResearchProjectDef>
-    <defName>ISA_ProcessedDrugs</defName>
-    <label>complex concoctions</label>
-    <tab>StonebornTab</tab>
-    <description>Create processed mixes of drugs and unique brews, utilizing various chemicals and minerals.</description>
-    <baseCost>1200</baseCost>
-    <techLevel>Medieval</techLevel>
-    <researchViewX>1.00</researchViewX>
-    <researchViewY>3.10</researchViewY>
-  </ResearchProjectDef>
-
   <ResearchProjectDef>
     <defName>ISA_DwarvenHiveKeeping</defName>
     <label>dwarven hive keeping</label>
-    <tab>StonebornTab</tab>
+    <tab>ISA_MedievalResearchTab</tab>
     <description>Create an artificial hive to farm insect jelly, it will occasionally attract wild insects.</description>
     <baseCost>1200</baseCost>
     <techLevel>Medieval</techLevel>
-    <researchViewX>0.00</researchViewX>
-    <researchViewY>0.10</researchViewY>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>4.10</researchViewY>
     <prerequisites>
       <li>ComplexFurniture</li>
       <li MayRequire="ISA.hornetkeeping">ISA_Hornetkeeping</li>
