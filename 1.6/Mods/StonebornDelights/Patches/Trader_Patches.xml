@@ -2,14 +2,10 @@
 <Patch>
 
 <!--========== MINERAL TRADERS ==========-->
-
-<Operation MayRequire="ISA.RandomPatches" Class="PatchOperationSequence">
- <!-- <success>Always</success>  -->
-    <operations>
       <!-- Add new caravan -->      <!-- Thank you Criz#2714 for the help with this patch -->
       <!-- Addons to the stock generator  -->
 
-      <li Class="PatchOperationAdd">
+      <Operation MayRequire="ISA.RandomPatches" Class="PatchOperationAdd">
         <xpath>/Defs/TraderKindDef[defName="ISA_Caravan_Minerals"]/stockGenerators</xpath>
         <value>
           
@@ -24,25 +20,26 @@
           </li>
 
         </value>
-      </li>
+      </Operation >
 
 <!--========== ORBITAL MINERAL TRADERS ==========-->
      
-      <li Class="PatchOperationAdd">
+
+      <Operation MayRequire="ISA.RandomPatches" Class="PatchOperationAdd">
         <xpath>/Defs/TraderKindDef[defName="ISA_Orbital_Minerals"]/stockGenerators</xpath>
         <value>
           
           <li Class="StockGenerator_SingleDef">
             <thingDef>SD_MinersDelight</thingDef>
-            <countRange>-5~35</countRange>
+            <countRange>5~35</countRange>
           </li>
       
           <li Class="StockGenerator_SingleDef">
             <thingDef>SD_Glimmerquartz</thingDef>
-            <countRange>-5~35</countRange>
-          </li>
+            <countRange>5~35</countRange>
+          </li>ISA_Orbital_Minerals
 
-  </operations>
-</Operation>
+        </value>
+      </Operation >
 
 </Patch>
