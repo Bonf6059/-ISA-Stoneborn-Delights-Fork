@@ -21,7 +21,7 @@
 <!-- Addons to the stock generator  -->
 
       <li Class="PatchOperationAdd">
-        <xpath>/Defs/TraderKindDef[defName="ISA_Caravan_Minerals"]/stockGenerators</xpath>
+        <xpath>/Defs/TraderKindDef[defName="ISA_Caravan_Minerals" or defName="ISA_Caravan_Medieval_Alchemist"]/stockGenerators</xpath>
         <value>
 
           <li MayRequire="ISA.Medieval" Class="StockGenerator_SingleDef">
