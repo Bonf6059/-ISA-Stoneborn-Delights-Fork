@@ -23,16 +23,6 @@
       <li Class="PatchOperationAdd">
         <xpath>/Defs/TraderKindDef[defName="ISA_Caravan_Minerals"]/stockGenerators</xpath>
         <value>
-          
-          <li Class="StockGenerator_SingleDef">
-            <thingDef>ISA_MinersDelight</thingDef>
-            <countRange>-5~15</countRange>
-          </li>
-      
-          <li Class="StockGenerator_SingleDef">
-            <thingDef>ISA_Glimmerquartz</thingDef>
-            <countRange>-5~15</countRange>
-          </li>
 
           <li MayRequire="ISA.Medieval" Class="StockGenerator_SingleDef">
             <thingDef>ISA_Criopyrinthquartz</thingDef>
