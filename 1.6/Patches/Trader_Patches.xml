@@ -17,7 +17,7 @@
           <li Class="StockGenerator_SingleDef">
             <thingDef>SD_Glimmerquartz</thingDef>
             <countRange>5~35</countRange>
-          </li>ISA_Orbital_Minerals
+          </li>
 
         </value>
       </Operation>
