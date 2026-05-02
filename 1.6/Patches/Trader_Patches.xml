@@ -2,74 +2,33 @@
 <Patch>
 
 <!--========== MINERAL TRADERS ==========-->
-
-<Operation MayRequire="ISA.RandomPatches" Class="PatchOperationSequence">
- <!-- <success>Always</success>  -->
-    <operations>
       <!-- Add new caravan -->      <!-- Thank you Criz#2714 for the help with this patch -->
+      <!-- Addons to the stock generator  -->
 
- <!-- Stoneborn faction uses OutlanderRoughBase as a base; the trade caravan is added by ISA-RandomPatches -->
-     
-<!--      <li Class="PatchOperationAdd">
-        <xpath>/Defs/FactionDef[defName="OutlanderRoughStoneborn"]/caravanTraderKinds</xpath>
+      <Operation MayRequire="ISA.RandomPatches" Class="PatchOperationAdd">
+        <xpath>/Defs/TraderKindDef[defName="ISA_Caravan_Minerals" or defName="ISA_Orbital_Minerals"]/stockGenerators</xpath>
         <value>
-          <li>ISA_Caravan_Minerals</li>
-          <li MayRequire="ISA.Medieval">ISA_Caravan_Mythological</li>
-        </value>
-      </li> -->
-
-<!-- Addons to the stock generator  -->
-
-      <li Class="PatchOperationAdd">
-        <xpath>/Defs/TraderKindDef[defName="ISA_Caravan_Minerals" or defName="ISA_Caravan_Medieval_Alchemist"]/stockGenerators</xpath>
-        <value>
-
-          <li MayRequire="ISA.Medieval" Class="StockGenerator_SingleDef">
-            <thingDef>ISA_Criopyrinthquartz</thingDef>
-            <countRange>-5~15</countRange>
+          
+          <li Class="StockGenerator_SingleDef">
+            <thingDef>SD_MinersDelight</thingDef>
+            <countRange>5~35</countRange>
           </li>
-
-          <li MayRequire="det.epochspyrinth" Class="StockGenerator_SingleDef">
-            <thingDef>ISA_Pyrinthquartz</thingDef>
-            <countRange>-5~15</countRange>
-          </li>
+      
+          <li Class="StockGenerator_SingleDef">
+            <thingDef>SD_Glimmerquartz</thingDef>
+            <countRange>5~35</countRange>
+          </li>ISA_Orbital_Minerals
 
         </value>
-      </li>
-
-<!--========== ORBITAL MINERAL TRADERS ==========-->
-     
-      <li Class="PatchOperationAdd">
-        <xpath>/Defs/TraderKindDef[defName="ISA_Orbital_Minerals"]/stockGenerators</xpath>
-        <value>
-
-          <li MayRequire="ISA.Medieval" Class="StockGenerator_SingleDef">
-            <thingDef>ISA_Criopyrinthquartz</thingDef>
-            <countRange>-5~35</countRange>
-          </li>
-          <li MayRequire="det.epochspyrinth" Class="StockGenerator_SingleDef">
-            <thingDef>ISA_Pyrinthquartz</thingDef>
-            <countRange>-5~35</countRange>
-          </li>
-
-        </value>
-      </li>
-
-  </operations>
-</Operation>
+      </Operation>
 
  <!--========== APICULTURAL TRADERS ==========-->
 
-<Operation MayRequire="ISA.hornetkeeping" Class="PatchOperationSequence">
- <!-- <success>Always</success>  -->
-    <operations>
-<!-- Addons to the stock generator  -->
-
-      <li Class="PatchOperationAdd">
+      <Operation MayRequire="ISA.hornetkeeping" Class="PatchOperationAdd">
         <xpath>/Defs/TraderKindDef[defName="ISA_Caravan_Apiculture"]/stockGenerators</xpath>
         <value>
 
-          <li Class="StockGenerator_SingleDef">
+         <li Class="StockGenerator_SingleDef">
             <thingDef>ISA_ArtificialHive</thingDef>
             <countRange>-5~3</countRange>
           </li>
@@ -80,9 +39,6 @@
           </li>
 
         </value>
-      </li>
-
-  </operations>
-</Operation>
+      </Operation>
 
 </Patch>
