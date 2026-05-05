@@ -14,6 +14,7 @@ Enrich your stoneborne experience with a new set of recreational and useful drug
 
 05/05/2026
 - Added nutrishine, a cheap copy of shroomale made in the fermenting barrel using nutrifungus
+- Replaced texture of HiveMead
 
 30/04/2026
 - Reorganized the code, moved around patches and so on 
