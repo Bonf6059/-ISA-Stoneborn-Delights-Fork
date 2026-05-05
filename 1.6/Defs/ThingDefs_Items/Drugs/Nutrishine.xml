@@ -15,7 +15,7 @@
     </descriptionHyperlinks>
     <possessionCount>6</possessionCount>
     <graphicData>
-      <texPath>Things/Nutrishine</texPath>
+      <texPath>Things/Items/Drugs/NutriShine</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <equippedAngleOffset>-150</equippedAngleOffset>
