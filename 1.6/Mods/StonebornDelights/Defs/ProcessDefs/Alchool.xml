@@ -12,7 +12,7 @@
     </thingDefs>
   </ingredientFilter>
   <processDays>12</processDays> <!-- in days, a day is 60,000 ticks -->
-  <capacityFactor>0.5</capacityFactor>
+  <capacityFactor>0.8</capacityFactor>
   <efficiency>0.5</efficiency>
   <usesTemperature>true</usesTemperature>
   <temperatureSafe>2~25</temperatureSafe>
