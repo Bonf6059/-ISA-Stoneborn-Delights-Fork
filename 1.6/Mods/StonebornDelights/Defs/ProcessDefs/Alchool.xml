@@ -26,7 +26,7 @@
   <windFactor>1.0~1.0</windFactor>
   <unfueledFactor>0.0</unfueledFactor>
   <fuelUseFactor>1.0</fuelUseFactor>
-  <filledGraphicSuffix>_shine</filledGraphicSuffix>
+  <filledGraphicSuffix>Filled</filledGraphicSuffix>
   <usesQuality>false</usesQuality>
   <customLabel>Brewed</customLabel>
   <destroyChance>0.0</destroyChance>
