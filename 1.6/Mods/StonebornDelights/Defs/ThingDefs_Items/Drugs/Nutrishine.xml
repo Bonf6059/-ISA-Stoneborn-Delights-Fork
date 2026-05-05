@@ -31,7 +31,7 @@
     <ingestible>
       <foodType>Fluid, Processed, Liquor</foodType>
       <joyKind>Chemical</joyKind>
-      <joy>0.17</joy>
+      <joy>0.16</joy>
       <nurseable>true</nurseable>
       <drugCategory>Social</drugCategory>
       <ingestSound>Ingest_Beer</ingestSound>
@@ -123,11 +123,11 @@
 		  
           <statOffsets>
 		  
-					<ShootingAccuracyPawn>1.75</ShootingAccuracyPawn>
+					<ShootingAccuracyPawn>1.70</ShootingAccuracyPawn>
 
 		   </statOffsets>	
 				
-          <socialFightChanceFactor>1.9</socialFightChanceFactor>
+          <socialFightChanceFactor>2</socialFightChanceFactor>
             <capMods>
               <li>
                 <capacity>Manipulation</capacity>
@@ -143,11 +143,11 @@
 		  
 		    <statOffsets>
 			
-					<ShootingAccuracyPawn>3.5</ShootingAccuracyPawn>
+					<ShootingAccuracyPawn>3.3</ShootingAccuracyPawn>
 
 		    </statOffsets>	
 		  
-          <socialFightChanceFactor>3</socialFightChanceFactor>
+          <socialFightChanceFactor>3.2</socialFightChanceFactor>
             <capMods>
 			   <li>
                 <capacity>Manipulation</capacity>
@@ -167,11 +167,11 @@
 		  
 		    <statOffsets>
 			
-					<ShootingAccuracyPawn>8</ShootingAccuracyPawn>
+					<ShootingAccuracyPawn>7</ShootingAccuracyPawn>
 
 		    </statOffsets>
 		  
-          <socialFightChanceFactor>4.5</socialFightChanceFactor>
+          <socialFightChanceFactor>4.6</socialFightChanceFactor>
           <vomitMtbDays>0.45</vomitMtbDays>
 		  
           <tale>Drunk</tale>
@@ -194,11 +194,11 @@
 		  
 		  <statOffsets>
 			
-					<ShootingAccuracyPawn>13</ShootingAccuracyPawn>
+					<ShootingAccuracyPawn>12.5</ShootingAccuracyPawn>
 
 		    </statOffsets>	
 		  
-          <socialFightChanceFactor>5</socialFightChanceFactor>
+          <socialFightChanceFactor>5.5</socialFightChanceFactor>
           <vomitMtbDays>0.45</vomitMtbDays>
             <capMods>
 			   <li>
