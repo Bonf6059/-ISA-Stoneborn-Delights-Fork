@@ -21,7 +21,7 @@ Enrich your stoneborne experience with a new set of recreational and useful drug
   and made patches for what I changed in my version of the mod, see below
 
       - Changed recipe for beard wax to 20 raw stout_cap+steel instead of neutroamine+steel
-      - Changed techlevel of all drugs to medieval or lower
+      - Changed techlevel of all drugs and research to medieval or lower
 
 19/01/2026
 - Added Coal as a fuel source
