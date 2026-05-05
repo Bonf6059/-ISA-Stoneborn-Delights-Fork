@@ -12,6 +12,9 @@ Enrich your stoneborne experience with a new set of recreational and useful drug
 
 # Old updates
 
+05/05/2026
+- Added nutrishine, a cheap copy of shroomale made in the fermenting barrel using nutrifungus
+
 30/04/2026
 - Reorganized the code, moved around patches and so on 
 - The original mod has been updated to 1.6 (current latest version) so I've deleted all the stuff coming from that mod
