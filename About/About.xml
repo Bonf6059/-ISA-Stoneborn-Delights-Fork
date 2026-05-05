@@ -26,10 +26,9 @@
 		
 	</modDependencies>
 	<loadAfter>
-		<li>Ludeon.RimWorld</li>
-		<li>Ludeon.RimWorld.Royalty</li>
 		<li>det.stoneborn</li>
 		<li>ISA.Medieval</li>
+		<li>det.sbdelights</li>
 	</loadAfter>
 	<packageId>ISA.sbdelights</packageId>
 	<description>Enrich your stoneborne experience with a new set of recreational and useful drugs!</description>
