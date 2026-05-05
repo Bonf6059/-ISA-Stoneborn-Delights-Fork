@@ -9,4 +9,14 @@
         	</costList>
 		  </value>
 	</Operation>
+
+	<!-- Add Nutrishine Fermenting Barrel -->
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="BarrelProcessor"]/comps/li[1]/processes</xpath>
+		<value>
+			<li>ISA_NutriShineBrewing</li>
+		</value>
+	</Operation>
+	
 </Patch>
