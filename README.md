@@ -9,6 +9,7 @@ Enrich your stoneborne experience with a new set of recreational and useful drug
 - Add 2 potion active with ISA Medieval enabled called "Artisanal dream" and "Oven's breath"
     Specs: Artisanal dream boosts global work speed +25% and quality of the output +1 (?) lowers hunger -10% and sleepfall rate -15% (texture in WIP)
     Specs: Oven's breath boosts cooking +12% and max comfortable temp +10°C lowers min comfortable temp +7°C and mental break treshold +5%
+- Recuperare da stoneborn factions expansion: CrystalCrown; FireproofGambeson; forse Goggles e Razorbug
 
 # Old updates
 
