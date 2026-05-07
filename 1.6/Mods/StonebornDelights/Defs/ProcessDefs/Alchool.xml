@@ -8,7 +8,7 @@
   <thingDef>ISA_NutriShine</thingDef>
   <ingredientFilter>
     <thingDefs>
-      <li>RawNutrifungus</li>
+      <li>RawFungus</li>
     </thingDefs>
   </ingredientFilter>
   <processDays>12</processDays> <!-- in days, a day is 60,000 ticks -->
