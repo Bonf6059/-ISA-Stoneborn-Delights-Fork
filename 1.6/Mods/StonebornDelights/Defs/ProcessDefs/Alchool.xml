@@ -5,7 +5,7 @@
 
 <ProcessorFramework.ProcessDef>
   <defName>ISA_NutriShineBrewing</defName>
-  <thingDef>ISA_NutriShine</thingDef>
+  <thingDef>ISA_Nutrishine</thingDef>
   <ingredientFilter>
     <thingDefs>
       <li>RawFungus</li>
