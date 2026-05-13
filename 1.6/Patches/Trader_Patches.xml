@@ -22,23 +22,4 @@
         </value>
       </Operation>
 
- <!--========== APICULTURAL TRADERS ==========-->
-
-      <Operation MayRequire="ISA.hornetkeeping" Class="PatchOperationAdd">
-        <xpath>/Defs/TraderKindDef[defName="ISA_Caravan_Apiculture"]/stockGenerators</xpath>
-        <value>
-
-         <li Class="StockGenerator_SingleDef">
-            <thingDef>ISA_ArtificialHive</thingDef>
-            <countRange>-5~3</countRange>
-          </li>
-
-          <li Class="StockGenerator_SingleDef">
-            <thingDef>ISA_QueenMaggot</thingDef>
-            <countRange>-5~3</countRange>
-          </li>
-
-        </value>
-      </Operation>
-
 </Patch>
