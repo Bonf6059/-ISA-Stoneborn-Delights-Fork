@@ -26,9 +26,10 @@
 		
 	</modDependencies>
 	<loadAfter>
-		<li>det.stoneborn</li>
 		<li>ISA.Medieval</li>
+		<li>det.stoneborn</li>
 		<li>det.sbdelights</li>
+		<li>det.sbcuisine</li>
 	</loadAfter>
 	<packageId>ISA.sbdelights</packageId>
 	<description>Patches and addons for the stoneborn mod series from DetVisor with some addons to increase compatibility to my mod series [ISA]\nEnrich your stoneborne experience with a new set of recreational and useful drugs, food, items and more!</description>
