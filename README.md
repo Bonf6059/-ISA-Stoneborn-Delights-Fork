@@ -13,6 +13,14 @@ Enrich your stoneborne experience with a new set of recreational and useful drug
 
 # Old updates
 
+13/05/2026
+- Added support for StonebornCuisine
+- Added compatibility between StonebornCuisine and ISA_HornetKeeping
+- Removed duplicated items
+
+        - Artificial Hive
+        - Maggot Queen
+
 05/05/2026
 - Added nutrishine, a cheap copy of shroomale made in the fermenting barrel using nutrifungus
 - Replaced texture of HiveMead
