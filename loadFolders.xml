@@ -4,5 +4,7 @@
 		<li>1.6</li>		
 		<li IfModNotActive="ISA.Medieval">1.6/Mods/StandaloneCoal</li>
 		<li IfModActive="det.sbdelights">1.6/Mods/StonebornDelights</li>
+		<li IfModActive="det.sbcuisine">1.6/Mods/StonebornCuisine</li>
+		<li IfModActiveAll="det.sbcuisine,ISA.hornetkeeping">1.6/Mods/StonebornCuisine/ISA_HornetKeeping</li>
 	</v1.6>
 </loadFolders>
