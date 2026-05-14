@@ -90,18 +90,7 @@
         		<thingDef>Meat_Megaspider</thingDef>
         		<countRange>30~141</countRange>
       		</li>
-      
-      		<li MayRequire="det.epochspyrinth" Class="StockGenerator_SingleDef">
-        		<thingDef>DV_Pyrinth</thingDef>
-        		<countRange>10~84</countRange>
-      		</li>
-      
-      		<li MayRequireAnyOf="det.epochspottery,det.epochsgolems" Class="StockGenerator_SingleDef">
-        		<thingDef>DV_Clay</thingDef>
-        		<countRange>10~84</countRange>
-      		</li>
-
-			
+            			
 			<!-- Buy -->
 			<li Class="StockGenerator_BuyExpensiveSimple" />
 			<li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
@@ -204,18 +193,7 @@
         		<thingDef>Meat_Megaspider</thingDef>
         		<countRange>74~271</countRange>
       		</li>
-      
-      		<li MayRequire="det.epochspyrinth" Class="StockGenerator_SingleDef">
-        		<thingDef>DV_Pyrinth</thingDef>
-        		<countRange>40~125</countRange>
-      		</li>
-      
-      		<li MayRequireAnyOf="det.epochspottery,det.epochsgolems" Class="StockGenerator_SingleDef">
-        		<thingDef>DV_Clay</thingDef>
-        		<countRange>40~125</countRange>
-      		</li>
-
-			
+            			
 			<!-- Buy -->
 			<li Class="StockGenerator_BuyExpensiveSimple" />
 			<li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
