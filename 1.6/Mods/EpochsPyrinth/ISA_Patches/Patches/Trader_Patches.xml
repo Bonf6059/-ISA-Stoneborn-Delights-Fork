@@ -5,7 +5,7 @@
       <!-- Add new caravan -->      <!-- Thank you Criz#2714 for the help with this patch -->
       <!-- Addons to the stock generator  -->
 
-      <Operation MayRequire="ISA.RandomPatches" Class="PatchOperationAdd">
+      <Operation Class="PatchOperationAdd">
         <xpath>/Defs/TraderKindDef[defName="ISA_Caravan_Minerals" or defName="ISA_Orbital_Minerals"]/stockGenerators</xpath>
         <value>
           
