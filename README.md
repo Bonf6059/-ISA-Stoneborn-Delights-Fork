@@ -1,4 +1,4 @@
-# -ISA-Stoneborn-Delights-Fork
+# -ISA-Stoneborn-Delights
 
 Patches and addons for the stoneborn mod series from DetVisor with some addons to increase compatibility to my mod series [ISA]          
 Enrich your stoneborne experience with a new set of recreational and useful drugs, food, items and more!
