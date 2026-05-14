@@ -3,7 +3,7 @@
 
 <!--========== TRADERS ==========-->
 
-<Operation MayRequire="ISA.RandomPatches" Class="PatchOperationSequence">
+<Operation Class="PatchOperationSequence">
  <!-- <success>Always</success>  -->
     <operations>
 
