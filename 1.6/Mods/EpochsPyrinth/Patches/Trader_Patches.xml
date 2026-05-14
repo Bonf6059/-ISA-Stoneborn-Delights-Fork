@@ -11,12 +11,7 @@
           
           <li Class="StockGenerator_SingleDef">
             <thingDef>ISA_Pyrinthquartz</thingDef>
-            <countRange>5~35</countRange>
-          </li>
-      
-          <li Class="StockGenerator_SingleDef">
-            <thingDef>ISA_Pyrinthquartz</thingDef>
-            <countRange>5~35</countRange>
+            <countRange>25~40</countRange>
           </li>
 
         </value>
