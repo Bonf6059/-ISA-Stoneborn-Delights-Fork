@@ -11,12 +11,12 @@
           
           <li Class="StockGenerator_SingleDef">
             <thingDef>SD_MinersDelight</thingDef>
-            <countRange>5~35</countRange>
+            <countRange>15~35</countRange>
           </li>
       
           <li Class="StockGenerator_SingleDef">
             <thingDef>SD_Glimmerquartz</thingDef>
-            <countRange>5~35</countRange>
+            <countRange>25~40</countRange>
           </li>ISA_Orbital_Minerals
 
         </value>
