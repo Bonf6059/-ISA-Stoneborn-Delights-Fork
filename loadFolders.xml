@@ -1,12 +1,19 @@
 <loadFolders>
 	<v1.6>
 		<li>/</li>
-		<li>1.6</li>		
+		<li>1.6</li>
+
+		<!-- IfModNotActive -->
 		<li IfModNotActive="ISA.Medieval">1.6/Mods/StandaloneCoal</li>
+		
+		<!-- IfModActive -->
 		<li IfModActive="ISA.Medieval">1.6/Mods/ISA_Medieval</li>
 		<li IfModActive="det.epochspyrinth">1.6/Mods/EpochsPyrinth</li>
 		<li IfModActive="det.sbdelights">1.6/Mods/StonebornDelights</li>
 		<li IfModActive="det.sbcuisine">1.6/Mods/StonebornCuisine</li>
+
+		<!-- IfModActiveAll -->
 		<li IfModActiveAll="det.sbcuisine,ISA.hornetkeeping">1.6/Mods/StonebornCuisine/ISA_HornetKeeping</li>
+	
 	</v1.6>
 </loadFolders>
