@@ -15,6 +15,7 @@ Enrich your stoneborne experience with a new set of recreational and useful drug
 # Old updates
 
 13/05/2026
+- Reorganized code
 - Added support for StonebornCuisine
 - Added compatibility between StonebornCuisine and ISA_HornetKeeping
 - Removed duplicated items
