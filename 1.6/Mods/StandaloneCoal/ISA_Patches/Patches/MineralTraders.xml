@@ -1,39 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-<!--========== TRADERS ==========-->
+<!--========== MINERAL TRADERS ==========-->
+      <!-- Add new caravan -->      <!-- Thank you Criz#2714 for the help with this patch -->
+      <!-- Addons to the stock generator  -->
 
-<Operation Class="PatchOperationSequence">
- <!-- <success>Always</success>  -->
-    <operations>
-
-<!-- Addons to the stock generator  -->
-
-      <li Class="PatchOperationAdd">
-        <xpath>/Defs/TraderKindDef[defName="ISA_Caravan_Minerals"]/stockGenerators</xpath>
+      <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/TraderKindDef[defName="ISA_Caravan_Minerals" or defName="ISA_Orbital_Minerals"]/stockGenerators</xpath>
         <value>
           
           <li Class="StockGenerator_SingleDef">
             <thingDef>ISA_Coal</thingDef>
             <countRange>50~200</countRange>
           </li>
-
-        </value>
-      </li>
-
-      <li Class="PatchOperationAdd">
-        <xpath>/Defs/TraderKindDef[defName="ISA_Orbital_Minerals"]/stockGenerators</xpath>
-        <value>
-          
+      
           <li Class="StockGenerator_SingleDef">
             <thingDef>ISA_Coal</thingDef>
-            <countRange>100~300</countRange>
+            <countRange>200~500</countRange>
           </li>
 
         </value>
-      </li>
-
-  </operations>
-</Operation>
+      </Operation>
 
 </Patch>
