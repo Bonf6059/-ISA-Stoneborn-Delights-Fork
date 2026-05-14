@@ -17,6 +17,7 @@ Enrich your stoneborne experience with a new set of recreational and useful drug
 - Reorganized code
 - Reduced research points needed for StonebornCuisine
 - Added Mineral trader in case ISA_RandomPatches isn't installed
+- Updated minerals trader stock and fixed for better compatibility
 
 13/05/2026
 - Added support for StonebornCuisine
