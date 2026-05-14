@@ -11,12 +11,7 @@
           
           <li Class="StockGenerator_SingleDef">
             <thingDef>ISA_Coal</thingDef>
-            <countRange>50~200</countRange>
-          </li>
-      
-          <li Class="StockGenerator_SingleDef">
-            <thingDef>ISA_Coal</thingDef>
-            <countRange>200~500</countRange>
+            <countRange>150~300</countRange>
           </li>
 
         </value>
