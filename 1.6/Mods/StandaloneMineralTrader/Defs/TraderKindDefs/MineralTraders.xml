@@ -13,28 +13,13 @@
 			</li>
       
 			<li Class="StockGenerator_SingleDef">
-				<thingDef>ISA_Mindwort</thingDef>
-				<countRange>2~5</countRange>
-			</li>
-			
-			<li Class="StockGenerator_SingleDef">
-				<thingDef>ISA_Poppy</thingDef>
-				<countRange>2~5</countRange>
-			</li>
-			
-			<li Class="StockGenerator_SingleDef">
-				<thingDef>ISA_FlyAgaric</thingDef>
-				<countRange>5~15</countRange>
-			</li>
-
-			<li Class="StockGenerator_SingleDef">
 				<thingDef>MedicineHerbal</thingDef>
-				<countRange>2~5</countRange>
+				<countRange>10~15</countRange>
 			</li>
 
-   		    <li Class="StockGenerator_SingleDef">
-   		      <thingDef>ISA_HerbalExtract</thingDef>
-    		  <countRange>5~10</countRange>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MedicineIndustrial</thingDef>
+				<countRange>5~10</countRange>
 			</li>
 
 			<li Class="StockGenerator_SingleDef">
@@ -116,28 +101,13 @@
 			</li>
       
 			<li Class="StockGenerator_SingleDef">
-				<thingDef>ISA_Mindwort</thingDef>
-				<countRange>5~10</countRange>
-			</li>
-			
-			<li Class="StockGenerator_SingleDef">
-				<thingDef>ISA_Poppy</thingDef>
-				<countRange>5~10</countRange>
-			</li>
-			
-			<li Class="StockGenerator_SingleDef">
-				<thingDef>ISA_FlyAgaric</thingDef>
-				<countRange>15~30</countRange>
-			</li>
-
-			<li Class="StockGenerator_SingleDef">
 				<thingDef>MedicineHerbal</thingDef>
-				<countRange>5~10</countRange>
+				<countRange>15~20</countRange>
 			</li>
 
-   		    <li Class="StockGenerator_SingleDef">
-   		      <thingDef>ISA_HerbalExtract</thingDef>
-    		  <countRange>10~15</countRange>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MedicineIndustrial</thingDef>
+				<countRange>10~15</countRange>
 			</li>
 
 			<li Class="StockGenerator_SingleDef">
