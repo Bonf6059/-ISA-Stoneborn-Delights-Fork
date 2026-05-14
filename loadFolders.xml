@@ -5,6 +5,7 @@
 
 		<!-- IfModNotActive -->
 		<li IfModNotActive="ISA.Medieval">1.6/Mods/StandaloneCoal</li>
+		<li IfModNotActive="ISA.RandomPatches">1.6/Mods/ISA_RandomPatches</li>
 		
 		<!-- IfModActive -->
 		<li IfModActive="ISA.Medieval">1.6/Mods/ISA_Medieval</li>
