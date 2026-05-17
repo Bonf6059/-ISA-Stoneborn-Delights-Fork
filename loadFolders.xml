@@ -16,6 +16,7 @@
 		<!-- IfModActiveAll -->
 		<li IfModActiveAll="det.sbcuisine,ISA.hornetkeeping">1.6/Mods/StonebornCuisine/ISA_HornetKeeping</li>
 		<li IfModActiveAll="det.sbcuisine,Van.Beasts">1.6/Mods/StonebornCuisine/DarkAgesBeastsMonsters</li>
+		<li IfModActiveAll="det.sbcuisine,det.halffoot,ISA.Medieval">1.6/Mods/StonebornCuisine/HalfFoot</li>
 			
 	</v1.6>
 </loadFolders>
